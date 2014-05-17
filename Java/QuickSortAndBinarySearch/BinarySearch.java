@@ -1,17 +1,32 @@
 public class BinarySearch{
-    private int binarySearch(int [] array,int beginPoint,int endPoint,int value){
+    private int binarySearchRecursive(int [] array,int beginPoint,int endPoint,int value){
         if(beginPoint > endPoint){
             return -1;
         }
         int middle = (beginPoint + endPoint) / 2;
         if(value < array[middle]){
-            return binarySearch(array,beginPoint,middle - 1, value);
+            return binarySearchRecursive(array,beginPoint,middle - 1,value);
         } else if(value > array[middle]) {
-            return binarySearch(array,middle, endPoint, value);
+            return binarySearchRecursive(array,middle,endPoint,value);
         }
-        return middle;
+        return middle + 1;
     }
-    public int recursiveSearch(int array,int value){
-        return binarySearch(array, 0, array.length, value);
+    private int binarySearchIterative(int [] array,int value){
+        int beginPoint = 0;
+        int endPoint = array.length - 1;
+        while(beginPoint <= endPoint){
+            int middle = (beginPoint + endPoint) / 2;
+            if(value > array[middle]){
+                beginPoint = middle + 1;
+            }else if(value < array[middle]){
+                endPoint = middle - 1;
+            }else{
+                return middle + 1;
+            }
+        }
+        return -1;
+    }
+    public int recursiveSearch(int [] array,int value){
+        return binarySearchRecursive(array,0,array.length,value);
     }
 }

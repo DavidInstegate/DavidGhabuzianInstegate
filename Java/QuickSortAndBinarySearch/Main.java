@@ -35,10 +35,10 @@ public class Main{
         System.out.println("Yes");
     }
     
-    public void fillArrayToEqualValues(int [] array){
+    public void fillArrayToEqualValues(int [] array, int value){
         int arraySize = array.length;
         for(int i = 0; i < arraySize; ++i){
-            array[i] = 100;
+            array[i] = value;
         }
     }
 
@@ -51,15 +51,29 @@ public class Main{
         }
         Main program = new Main();
         if (array != null) {
+            System.out.println("Filling array for positive values.");
             program.fillArrayToRandomValues(array);
             QuickSort  quickSort = new QuickSort();
             BinarySearch binarySearch = new BinarySearch();
+            System.out.println("Sorting");
             quickSort.sort(array);
-            System.out.println(binarySearch.recursiveSearch(array[],array[10]));
-            System.out.println(binarySearch.recursiveSearch(array[],-10));
+            System.out.println("Recursive BinarySearch for " + array.length + "th element.");
+            System.out.println(binarySearch.recursiveSearch(array,array[array.length - 1]));
+            System.out.println("Recursive BinarySearch recursive for -10 value.");
+            System.out.println(binarySearch.recursiveSearch(array,-10));
+            System.out.println("Iterative BinarySearch for " + array.length + "th element.");
+            System.out.println(binarySearch.binarySearchIterative(array,array[array.length - 1]));
+            System.out.println("Iterative BinarySearch for 0th element");
+            System.out.println(binarySearch.binarySearchIterative(array,array[0]));
+            System.out.println("Iterative BinarySearch for -10 value");
+            System.out.println(binarySearch.binarySearchIterative(array,-10));
+            System.out.println("Testing did array sorted");
             program.testForMonoton(array);
+            System.out.println("Resorting sorted array");
             quickSort.sort(array);
-            program.fillArrayToEqualValues(array);
+            System.out.println("Equaling array to 20");
+            program.fillArrayToEqualValues(array,20);
+            System.out.println("Sorting array");
             quickSort.sort(array);
         }
     }
