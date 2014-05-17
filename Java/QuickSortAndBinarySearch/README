@@ -1,1 +1,16 @@
 README
+
+This is a program which demonstrates implementation of QuickSort and BinarySearch algorithms.
+The program make an array with given array size.
+The array size user intups from terminal.
+The BInarySearch algorithm was implemented correspondingly by two recursive and Iterative ways.
+The program also checks for dangerous values during search.
+The program also checks is the array ordered by monoton order.
+For building program user must run makefile by this way.
+make
+For ranning program user must type following
+java Main
+for clearing program user must run make whith clear command line parameter by this way
+make clear.
+
+Thank you.
