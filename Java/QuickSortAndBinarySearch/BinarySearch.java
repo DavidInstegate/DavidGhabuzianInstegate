@@ -11,7 +11,7 @@ public class BinarySearch{
         }
         return middle + 1;
     }
-    private int binarySearchIterative(int [] array,int value){
+    public int binarySearchIterative(int [] array,int value){
         int beginPoint = 0;
         int endPoint = array.length - 1;
         while(beginPoint <= endPoint){

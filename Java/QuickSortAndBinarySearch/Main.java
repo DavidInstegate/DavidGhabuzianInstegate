@@ -1,5 +1,6 @@
 import java.util.Random;
 import java.util.Arrays;
+import java.io.Console;
 
 public class Main{
     public boolean fillArrayToRandomValues(int [] array) {
@@ -44,10 +45,13 @@ public class Main{
 
     public static void main(String [] argv) {
         int [] array = null;
-        if(argv.length > 0) {
-            int arraySize = Integer.parseInt(argv[0]);
-            if (arraySize > 0)
-                array = new int [arraySize];
+        int arraySize = 0;
+        Console input = System.console();
+        arraySize = Integer.parseInt(input.readLine("Please enter size of array: "));
+        if(arraySize > 0) {
+            array = new int [arraySize];
+        }else{
+            System.out.println("You have entered incorect size");
         }
         Main program = new Main();
         if (array != null) {
@@ -63,7 +67,7 @@ public class Main{
             System.out.println(binarySearch.recursiveSearch(array,-10));
             System.out.println("Iterative BinarySearch for " + array.length + "th element.");
             System.out.println(binarySearch.binarySearchIterative(array,array[array.length - 1]));
-            System.out.println("Iterative BinarySearch for 0th element");
+            System.out.println("Iterative BinarySearch for first element");
             System.out.println(binarySearch.binarySearchIterative(array,array[0]));
             System.out.println("Iterative BinarySearch for -10 value");
             System.out.println(binarySearch.binarySearchIterative(array,-10));
