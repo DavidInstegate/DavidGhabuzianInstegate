@@ -34,6 +34,13 @@ public class Main{
         }
         System.out.println("Yes");
     }
+    
+    public void fillArrayToEqualValues(int [] array){
+        int arraySize = array.length;
+        for(int i = 0; i < arraySize; ++i){
+            array[i] = 100;
+        }
+    }
 
     public static void main(String [] argv) {
         int [] array = null;
@@ -46,8 +53,14 @@ public class Main{
         if (array != null) {
             program.fillArrayToRandomValues(array);
             QuickSort  quickSort = new QuickSort();
+            BinarySearch binarySearch = new BinarySearch();
             quickSort.sort(array);
+            System.out.println(binarySearch.recursiveSearch(array[],array[10]));
+            System.out.println(binarySearch.recursiveSearch(array[],-10));
             program.testForMonoton(array);
+            quickSort.sort(array);
+            program.fillArrayToEqualValues(array);
+            quickSort.sort(array);
         }
     }
 }

@@ -3,32 +3,36 @@ public class QuickSort {
         if(beginPoint >= endPoint){
             return;
         }
-        int positionI = beginPoint;
-        int positionJ = endPoint;
-        int middle = (positionI + positionJ) / 2;
-        while(positionI < positionJ) {
-            while(array[positionI] < array[middle]) {
-                ++positionI;
-                if(positionI == middle) {
+        int i = beginPoint;
+        int j = endPoint;
+        int item = array[(i + j) / 2];
+        while(i <= j){
+            while(array[i] < item) {
+                ++i;
+                if(i == endPoint) {
                     break;
                 }
             }
-            while(array[positionJ] > array[middle]) {
-                --positionJ;
-                if(positionJ == middle) {
+            while(array[j] > item) {
+                --j;
+                if(j == beginPoint) {
                     break;
                 }
             }
-            int temp = array[positionI];
-            array[positionI] = array[positionJ];
-            array[positionJ] = temp;
-            ++positionI;
+            if(i <= j) {
+                int temp = array[i];
+                array[i] = array[j];
+                array[j] = temp;
+                ++i;
+                --j;
+            }
         }
-        int temp = array[positionI];
-        array[positionI] = array[endPoint];
-        array[endPoint] = temp;
-        quickSort(array,beginPoint,positionI);
-        quickSort(array,positionI,endPoint);
+        if(beginPoint < j){
+            quickSort(array,beginPoint,j);
+        }
+        if(endPoint > i){
+            quickSort(array,i,endPoint);
+        }
     }
     public void sort(int [] array){
         quickSort(array,0,array.length - 1);
