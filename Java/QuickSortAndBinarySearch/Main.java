@@ -2,7 +2,7 @@ import java.util.Random;
 import java.util.Arrays;
 
 public class Main{
-    public boolean FillArrayToRandomValues(int [] array) {
+    public boolean fillArrayToRandomValues(int [] array) {
         if(array != null) {
             Random random = new Random();
             int arraySize = array.length;
@@ -14,14 +14,14 @@ public class Main{
         return false;
     }
 
-    public void PrintArray(int [] array) {
+    public void printArray(int [] array) {
         int arraySize = array.length;
         for(int i = 0; i < arraySize; ++i) {
             System.out.println(array[i]);
         }
     }
 
-    public void TestForMonoton(int [] array) {
+    public void testForMonoton(int [] array) {
         int arraySize = array.length - 1;
         for(int i = 0; i < arraySize; ++i) {
             if(array[i] <= array[i + 1]) {
@@ -44,8 +44,10 @@ public class Main{
         }
         Main program = new Main();
         if (array != null) {
-            program.FillArrayToRandomValues(array);
-            program.PrintArray(array);
+            program.fillArrayToRandomValues(array);
+            QuickSort  quickSort = new QuickSort();
+            quickSort.sort(array);
+            program.testForMonoton(array);
         }
     }
 }
