@@ -6,6 +6,7 @@ OBJECT_PHURE := $(subst .java,.class,$(SOURCE_PHURE))
 
 $(OBJECT_MAIN) : $(SOURCE_MAIN) $(OBJECT_PHURE)
 	javac $(<)
-
 $(OBJECT_PHURE) : $(SOURCE_PHURE)
 	javac $(^)
+PHONY clear:
+	rm *.class
