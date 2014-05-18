@@ -1,0 +1,14 @@
+README
+
+This a program which calculates the range of Phure for a given value
+For running the program at first you need to build it.
+You can build the program by this way.
+run make by typing
+make
+After building you can run the program by typing
+java Main
+
+When the program is run. The program will ask you to type the value
+And then the program will print a value of Phure function for the given x value
+
+Thank you
