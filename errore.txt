@@ -1,4 +1,0 @@
-# On branch master
-# Your branch is ahead of 'origin/master' by 12 commits.
-#
-nothing to commit (working directory clean)
