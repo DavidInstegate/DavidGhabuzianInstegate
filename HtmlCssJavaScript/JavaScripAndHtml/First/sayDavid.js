@@ -1,0 +1,3 @@
+function sayDavid() {
+    allert("David");
+}
