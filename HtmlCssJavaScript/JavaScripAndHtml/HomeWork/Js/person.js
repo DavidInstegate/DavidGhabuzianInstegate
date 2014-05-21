@@ -4,11 +4,15 @@ var person = {
     age : 0,
     eyeColor : "Brown",
 };
+var idFirstName = "idFirstName";
+var idSurName = "idSurName";
+var idEyeColor = "idEyeColor";
+var idAge = "idAge";
 function addPerson() {
-    person.firstName = document.getElementById("idFirstName").value;
-    person.surName = document.getElementById("idSurName").value;
-    person.eyeColor = document.getElementById("idEyeColor").value;
-    var list = document.getElementById("idAge");
+    person.firstName = document.getElementById(idFirstName).value;
+    person.surName = document.getElementById(idSurName).value;
+    person.eyeColor = document.getElementById(idEyeColor).value;
+    var list = document.getElementById(idAge);
     var index = list.selectedIndex;
     person.age = list[index].value;
 }
@@ -18,8 +22,7 @@ function getPerson() {
     clearFields();
 }
 function clearFields() {
-    document.getElementById("idFirstName").value = "";
-    document.getElementById("idSurName").value = "";
-    document.getElementById("idEyeColor").value = "";
-    document.getElemerntById("idAge").selectedIndex = -1;
+    document.getElementById(idFirstName).value = "";
+    document.getElementById(idSurName).value = "";
+    document.getElementById(idEyeColor).value = "";
 }
