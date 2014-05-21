@@ -1,23 +1,39 @@
 <!DOCTYPE html>
 <html>
     <body>
-        <p id="demo"></p>
-
         <script>
             var person = {
-                firstName : "John",
-                lastName  : "Doe",
-                age       : 50,
-                eyeColor  : "blue"
+                firstName : "Name",
+                surName : "Surname",
+                age       : 0,
+                eyeColor  : "Brown",
             };
-            <form>
-                First name: <input type="text" name="firstname"><br>
-                Last name: <input type="text" name="lastname">
-            </form>
-            document.getElementById("demo").innerHTML =
-            person.firstName + " is " + person.age + " years old.";
+            function addPerson() {
+                person.firstName = document.getElementById("idFirstName").value;
+                person.surName = document.getElementById("idSurName").value;
+                person.eyeColor = document.getElementById("idEyeColor").value;
+                alert(person.eyeColor);
+            }
+            function getPerson() {
+                document.getElementById("demo").innerHTML = person.firstName + " " + person.surName 
+                    + " is " + person.age + " and has " + " " + person.eyeColor + " eyes.";
+            }
         </script>
-
+        <form>
+            First name: <input type="text" id="idFirstName"><br>
+            Surname name: <input type="text" id="idSurName"><br>
+            Age: 
+            <select id="idAge"
+                <option>16</option>
+                <option>17</option>
+                <option>18</option>
+                <option>19</option>
+            </select><br>
+            Eye color <input type="text" id="idEyeColor"><br>
+            <button type="button" onclick="addPerson()">Add person</button><br>
+            <button type="button" onclick="getPerson()">Get person</button>
+        </form>
+        <p id="demo"></p>
     </body>
 </html>
 
