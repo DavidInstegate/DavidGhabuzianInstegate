@@ -1,0 +1,26 @@
+function function1() {
+   var ol= document.getElementById("list");
+   var li = document.createElement("li");
+   var myNumber=5;
+   var arr=new Array();
+   arr.push(document.getElementById("inputik").value);
+li.appendChild(document.createTextNode(document.getElementById("inputik").value));
+   ol.appendChild(li);
+   clear();
+
+}
+function clear(){
+   document.getElementById("inputik").value="";
+}
+function functionarray(){
+
+}
+
+
+
+
+
+
+
+
+

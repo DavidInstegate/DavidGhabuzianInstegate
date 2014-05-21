@@ -1,3 +1,3 @@
 function sayDavid() {
-    allert("David");
+    alert("David");
 }
