@@ -1,24 +1,10 @@
 <!DOCTYPE html>
 <html>
-    <body>
-        <script>
-            var person = {
-                firstName : "Name",
-                surName : "Surname",
-                age       : 0,
-                eyeColor  : "Brown",
-            };
-            function addPerson() {
-                person.firstName = document.getElementById("idFirstName").value;
-                person.surName = document.getElementById("idSurName").value;
-                person.eyeColor = document.getElementById("idEyeColor").value;
-                alert(person.eyeColor);
-            }
-            function getPerson() {
-                document.getElementById("demo").innerHTML = person.firstName + " " + person.surName 
-                    + " is " + person.age + " and has " + " " + person.eyeColor + " eyes.";
-            }
+    <head>
+        <script src="Js/person.js">
         </script>
+    </head>
+    <body>
         <form>
             First name: <input type="text" id="idFirstName"><br>
             Surname name: <input type="text" id="idSurName"><br>
