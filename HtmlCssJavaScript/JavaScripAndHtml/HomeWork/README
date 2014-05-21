@@ -2,5 +2,7 @@ README
 
 This web page demonstrates the usage of objects in JavaScript
 For running the page please make double click on the index.html
+User can add information about person and then press "Add Person" button.
+After user can see information about person by pressing Get Person button.
 
 Thank you.

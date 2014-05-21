@@ -15,4 +15,11 @@ function addPerson() {
 function getPerson() {
     document.getElementById("demo").innerHTML = person.firstName + " " + person.surName 
         + " is " + person.age + " years old and has " + " " + person.eyeColor + " eyes.";
+    clearFields();
+}
+function clearFields() {
+    document.getElementById("idFirstName").value = "";
+    document.getElementById("idSurName").value = "";
+    document.getElementById("idEyeColor").value = "";
+    document.getElemerntById("idAge").selectedIndex = -1;
 }
