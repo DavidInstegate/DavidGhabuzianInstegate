@@ -1,30 +1,32 @@
 var idBoard="idBoard";
 var idBoardSize="idBoardSize";
+var blackColor = "black";
+var whiteColor = "white"
 var gameBoard = {
      createGameBoard : function () {
-        alert('createGameBoard');
         var table = document.getElementById(idBoard);
         var boardSize = document.getElementById(idBoardSize).value;
         for(var i = 0; i < boardSize; ++i) {
-            alert("for I");
             var rowElement = document.createElement("tr");
             for(var j = 0; j < boardSize; ++j) {
                 var columeElement = document.createElement("td");
-                columeElement.innerHTML ="<p>j + 1</p>";
+                if((i+j)%2 == 0) {
+                    columeElement.style.backgroundColor = whiteColor;
+                } else {
+                    columeElement.style.backgroundColor = blackColor;
+                }
+                columeElement.align = "center";
                 rowElement.appendChild(columeElement);
             }
             table.appendChild(rowElement);
-
         }
-
     }
 };
 function startGame() {
- //   var table = document.getElementById(idBoard);
-    alert("Start Game");
     gameBoard.createGameBoard();
-  //  var row = table.rows[2];
-  //  var cell = row.cells[3];
-  //  cell.innerHTML = '<input id="Button" type="button" value="ClickHere" />';
+    var table = document.getElementById(idBoard);
+    var row = table.rows[2];
+    var cell = row.cells[3];
+    cell.innerHTML = '<input id="Button" style="background-color:green" type="button" />';
 }
 
