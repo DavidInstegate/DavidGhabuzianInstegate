@@ -4,6 +4,11 @@ var blackColor = "black";
 var whiteColor = "white";
 var greenColor = "green";
 var redColor = "red";
+var selectedFigure = {
+    i : -3,
+    j : -3,
+    color : "unknown"
+};
 var gameBoard = {
     boardSize : 8,
     createGameBoard : function () {
@@ -12,8 +17,8 @@ var gameBoard = {
         for(var i = 0; i < this.boardSize; ++i) {
             var rowElement = document.createElement("tr");
             rowElement.onclick = function() {
-                alert("OnClick row");
-                alert(this.rowIndex);
+                selectedFigure.i = this.rowIndex;
+                alert("OnRowClick" + selectedFigure.i);
             }
             for(var j = 0; j < this.boardSize; ++j) {
                 var columeElement = document.createElement("td");
@@ -39,7 +44,14 @@ var gameBoard = {
          var table = document.getElementById(idBoard);
          var row = table.rows[positionI];
          var cell = row.cells[positionJ];
-         cell.innerHTML = '<input style="background-color:' + figureColor + '" type="button" />';
+         var button = document.createElement("input");
+         button.setAttribute("type","button");
+         button.onclick = function() {
+             alert("Button on click");
+         }
+         button.style.background = figureColor;
+         cell.appendChild(button);
+         //cell.innerHTML = '<input style="background-color:' + figureColor + '" type="button" />';
      }
 };
 function startGame() {
