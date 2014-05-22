@@ -6,6 +6,7 @@ var greenColor = "green";
 var redColor = "red";
 var gameBoard = {
     boardSize : 8,
+    selectedI : -1,
     createGameBoard : function () {
         var table = document.getElementById(idBoard);
         this.boardSize = document.getElementById(idBoardSize).value;
@@ -32,10 +33,9 @@ var gameBoard = {
          cell.innerHTML = '<input style="background-color:' + figureColor + '" type="button" />';
      }
 };
-function moveFigure(cell) {
+function moveFigure() {
     alert("moveFigure");
-    var cell = $(this);
-    alert(cell.cellIndex);
+    alert(gameBoard.selectedI);
 }
 function startGame() {
     gameBoard.createGameBoard();
