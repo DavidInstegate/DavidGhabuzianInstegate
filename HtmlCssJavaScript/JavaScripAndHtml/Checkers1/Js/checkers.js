@@ -22,7 +22,11 @@ var gameBoard = {
                 columeElement.align = "center";
                 var id = i * this.boardSize + j;
                 columeElement.setAttribute("id",id);
-                columeElement.setAttribute("onclick","move");
+                columeElement.onclick = function() {
+                    alert("Move");
+                    alert(this.cellIndex);
+                    alert(parseInt(this.offsetParent().index()));
+                }
                 rowElement.appendChild(columeElement);
             }
             table.appendChild(rowElement);
@@ -35,11 +39,11 @@ var gameBoard = {
          cell.innerHTML = '<input style="background-color:' + figureColor + '" type="button" />';
      }
 };
-function moveFigure() {
+/*function moveFigure() {
     alert("moveFigure");
-    alert(this.id);
-}
-gameBoard.prototype.move = moveFigure();
+    alert(this.cellIndex);
+}*/
+document.getElementByTag("td").prototype.move = moveFigure();
 function startGame() {
     gameBoard.createGameBoard();
     for(var i = 0; i < 3; ++i) {
