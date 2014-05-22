@@ -20,7 +20,9 @@ var gameBoard = {
                     columeElement.style.backgroundColor = blackColor;
                 }
                 columeElement.align = "center";
-                columeElement.setAttribute("onclick","moveFigure()");
+                var id = i * this.boardSize + j;
+                columeElement.setAttribute("id",id);
+                columeElement.setAttribute("onclick","move");
                 rowElement.appendChild(columeElement);
             }
             table.appendChild(rowElement);
@@ -35,8 +37,9 @@ var gameBoard = {
 };
 function moveFigure() {
     alert("moveFigure");
-    alert(gameBoard.selectedI);
+    alert(this.id);
 }
+gameBoard.prototype.move = moveFigure();
 function startGame() {
     gameBoard.createGameBoard();
     for(var i = 0; i < 3; ++i) {
