@@ -2,7 +2,7 @@ var person = {
     firstName : "Name",
     surName : "Surname",
     age : 0,
-    eyeColor : "Brown",
+    eyeColor : "Brown"
 };
 var idFirstName = "idFirstName";
 var idSurName = "idSurName";
