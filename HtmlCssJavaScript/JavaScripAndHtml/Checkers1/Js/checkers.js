@@ -9,7 +9,6 @@ var gameBoard = {
     createGameBoard : function () {
         var table = document.getElementById(idBoard);
         this.boardSize = document.getElementById(idBoardSize).value;
-        alert(this.boardSize);
         for(var i = 0; i < this.boardSize; ++i) {
             var rowElement = document.createElement("tr");
             for(var j = 0; j < this.boardSize; ++j) {
@@ -20,6 +19,7 @@ var gameBoard = {
                     columeElement.style.backgroundColor = blackColor;
                 }
                 columeElement.align = "center";
+                columeElement.onclick = "moveFigure()";
                 rowElement.appendChild(columeElement);
             }
             table.appendChild(rowElement);
@@ -32,13 +32,18 @@ var gameBoard = {
          cell.innerHTML = '<input style="background-color:' + figureColor + '" type="button" />';
      }
 };
+function moveFigure() {
+    alert(this.cellIndex);
+}
 function startGame() {
     gameBoard.createGameBoard();
     for(var i = 0; i < 3; ++i) {
         var size = gameBoard.boardSize;
-        for(var j = i % 2; j < size; j +=2) {
+        for(var j = i % 2; j < size; j += 2) {
             gameBoard.putFigure(i,j,greenColor);
-            var redLiene = gameBoard.boardSize - i - 1;
+        }
+        var redLine = size - i -1;
+        for(var j = redLine % 2; j < size; j += 2) {
             gameBoard.putFigure(redLine,j,redColor);
         }
     }
