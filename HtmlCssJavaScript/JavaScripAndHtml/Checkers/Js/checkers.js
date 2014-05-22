@@ -1,8 +1,10 @@
 var idBoard="idBoard"
 function startGame() {
-    alert("Start Game");
     var table = document.getElementById(idBoard);
-    var button = document.creatElement("button");
-    tabble.rows[3].cells[3].value = button;
+    alert("Start Game");
+    var button = document.createElenemt("input");
+    button.setAttribute("type","button");
+    button.setAttribute("name","Black");
+    tabble.rows[2].cells[3].appendChild(button);
 }
 
