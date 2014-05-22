@@ -1,14 +1,18 @@
 var idBoard="idBoard";
 var idBoardSize="idBoardSize";
 var blackColor = "black";
-var whiteColor = "white"
+var whiteColor = "white";
+var greenColor = "green";
+var redColor = "red";
 var gameBoard = {
-     createGameBoard : function () {
+    boardSize : 8,
+    createGameBoard : function () {
         var table = document.getElementById(idBoard);
-        var boardSize = document.getElementById(idBoardSize).value;
-        for(var i = 0; i < boardSize; ++i) {
+        this.boardSize = document.getElementById(idBoardSize).value;
+        alert(this.boardSize);
+        for(var i = 0; i < this.boardSize; ++i) {
             var rowElement = document.createElement("tr");
-            for(var j = 0; j < boardSize; ++j) {
+            for(var j = 0; j < this.boardSize; ++j) {
                 var columeElement = document.createElement("td");
                 if((i+j)%2 == 0) {
                     columeElement.style.backgroundColor = whiteColor;
@@ -20,13 +24,24 @@ var gameBoard = {
             }
             table.appendChild(rowElement);
         }
-    }
+     },
+     putFigure : function (positionI, positionJ, figureColor) {
+         var table = document.getElementById(idBoard);
+         var row = table.rows[positionI];
+         var cell = row.cells[positionJ];
+         cell.innerHTML = '<input style="background-color:' + figureColor + '" type="button" />';
+     }
 };
 function startGame() {
     gameBoard.createGameBoard();
-    var table = document.getElementById(idBoard);
-    var row = table.rows[2];
-    var cell = row.cells[3];
-    cell.innerHTML = '<input id="Button" style="background-color:green" type="button" />';
+    for(var i = 0; i < 3; ++i) {
+        var size = gameBoard.boardSize;
+        for(var j = i % 2; j < size; j +=2) {
+            gameBoard.putFigure(i,j,greenColor);
+            var redLiene = gameBoard.boardSize - i - 1;
+            gameBoard.putFigure(redLine,j,redColor);
+        }
+    }
+
 }
 
