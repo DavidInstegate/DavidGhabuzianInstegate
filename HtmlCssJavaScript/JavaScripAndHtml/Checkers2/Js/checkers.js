@@ -48,6 +48,9 @@ var gameBoard = {
                             cell = table.rows[selectedFigure.i].cells[selectedFigure.j];
                             var child = cell.children[0];
                             cell.removeChild(child);
+                        } else {
+                            alert("Yow are trying to put figure on figure");
+                            return;
                         }
                         turnColor = greenColor;
                     } else if(selectedFigure.color == greenColor && ((selectedFigure.i - selectedFeild.i == -1))
@@ -60,6 +63,9 @@ var gameBoard = {
                             cell = table.rows[selectedFigure.i].cells[selectedFigure.j];
                             var child = cell.children[0];
                             cell.removeChild(child);
+                        } else {
+                            alert("Yow are trying to put figure on figure");
+                            return;
                         }
                         turnColor = redColor;
                     }
