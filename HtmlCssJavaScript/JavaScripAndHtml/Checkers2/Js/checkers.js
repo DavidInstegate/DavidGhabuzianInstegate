@@ -9,6 +9,10 @@ var selectedFigure = {
     j : -3,
     color : "unknown"
 };
+var selectedFeild = {
+    i : -3,
+    j : -3
+};
 var gameBoard = {
     boardSize : 8,
     createGameBoard : function () {
@@ -17,12 +21,14 @@ var gameBoard = {
         for(var i = 0; i < this.boardSize; ++i) {
             var rowElement = document.createElement("tr");
             rowElement.onclick = function() {
-                selectedFigure.i = this.rowIndex;
-                alert("OnRowClick" + selectedFigure.i);
+                if(this.children[0]) {
+                    selectedFigure.i = this.rowIndex;
+                    alert("OnRow" + sectedFigure.i);
+                }
             }
             for(var j = 0; j < this.boardSize; ++j) {
                 var columeElement = document.createElement("td");
-                if((i+j)%2 == 0) {
+                if((i+j) % 2 == 0) {
                     columeElement.style.backgroundColor = whiteColor;
                 } else {
                     columeElement.style.backgroundColor = blackColor;
@@ -31,9 +37,8 @@ var gameBoard = {
                 var id = i * this.boardSize + j;
                 columeElement.setAttribute("id",id);
                 columeElement.onclick = function() {
-                    alert("Move");
-                    alert(this.cellIndex);
-                    alert(this.parent().index("tr"));
+                    selectedFigure.j = this.cellIndex;
+                    alert(this.parent().rowIndex);
                 }
                 rowElement.appendChild(columeElement);
             }
@@ -46,12 +51,12 @@ var gameBoard = {
          var cell = row.cells[positionJ];
          var button = document.createElement("input");
          button.setAttribute("type","button");
+         button.style.backgroundColor = figureColor;
          button.onclick = function() {
-             alert("Button on click");
+             selectedFigure.color = this.style.backgroundColor; 
+             alert("Button on click" + "!!!!!!!!!!" + selectedFigure.color);
          }
-         button.style.background = figureColor;
          cell.appendChild(button);
-         //cell.innerHTML = '<input style="background-color:' + figureColor + '" type="button" />';
      }
 };
 function startGame() {
