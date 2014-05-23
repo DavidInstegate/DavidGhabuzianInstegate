@@ -20,12 +20,6 @@ var gameBoard = {
         this.boardSize = document.getElementById(idBoardSize).value;
         for(var i = 0; i < this.boardSize; ++i) {
             var rowElement = document.createElement("tr");
-            rowElement.onclick = function() {
-                if(this.children[0]) {
-                    selectedFigure.i = this.rowIndex;
-                    alert("OnRow" + sectedFigure.i);
-                }
-            }
             for(var j = 0; j < this.boardSize; ++j) {
                 var columeElement = document.createElement("td");
                 if((i+j) % 2 == 0) {
@@ -37,8 +31,25 @@ var gameBoard = {
                 var id = i * this.boardSize + j;
                 columeElement.setAttribute("id",id);
                 columeElement.onclick = function() {
-                    selectedFigure.j = this.cellIndex;
-                    alert(this.parent().rowIndex);
+                    selectedFeild.j = this.cellIndex;
+                    selectedFeild.i = this.parentNode.rowIndex;
+                    if(selectedFigure.color == redColor && ((selectedFigure.i - selectedFeild.i == 1))
+                                                        && ((selectedFigure.j - selectedFeild.j == 1)
+                                                        || (selectedFigure.j - selectedFeild.j == -1)))
+                                {
+                                        var button = document.createElement("input");
+                                        button.setAttribute("type","button");
+                                        button.style.backgroundColor = selectedFigure.color;
+                                        button.onclick = function() {
+                                            selectedFigure.color = this.style.backgroundColor;
+                                            var cell = this.parentNode;
+                                            selectedFigure.j = cell.cellIndex;
+                                            selectedFigure.i = cell.parentNode.rowIndex;
+                                        }
+                                        alert("Statement is true" + selectedFigure.color);
+                                        this.appendChild(button);
+                                    }
+
                 }
                 rowElement.appendChild(columeElement);
             }
@@ -53,8 +64,10 @@ var gameBoard = {
          button.setAttribute("type","button");
          button.style.backgroundColor = figureColor;
          button.onclick = function() {
-             selectedFigure.color = this.style.backgroundColor; 
-             alert("Button on click" + "!!!!!!!!!!" + selectedFigure.color);
+             selectedFigure.color = this.style.backgroundColor;
+             var cell = this.parentNode;
+             selectedFigure.j = cell.cellIndex;
+             selectedFigure.i = cell.parentNode.rowIndex;
          }
          cell.appendChild(button);
      }
