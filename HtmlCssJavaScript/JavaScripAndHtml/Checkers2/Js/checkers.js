@@ -13,6 +13,7 @@ var selectedFeild = {
     i : -3,
     j : -3
 };
+var turnColor = redColor;
 var gameBoard = {
     boardSize : 8,
     createGameBoard : function () {
@@ -31,6 +32,10 @@ var gameBoard = {
                 var id = i * this.boardSize + j;
                 columeElement.setAttribute("id","id" + id);
                 columeElement.onclick = function() {
+                    if(turnColor != selectedFigure.color) {
+                        alert("You have selected incorrect figure");
+                        return;
+                    }
                     selectedFeild.j = this.cellIndex;
                     selectedFeild.i = this.parentNode.rowIndex;
                     if(selectedFigure.color == redColor && ((selectedFigure.i - selectedFeild.i == 1))
@@ -38,16 +43,26 @@ var gameBoard = {
                                                             || (selectedFigure.j - selectedFeild.j == -1)))
                     {
                         var table = document.getElementById(idBoard);
-                        if(!table.rows[selecteFeild.i].cells[selectedFeild.j].children[0]) {
+                        if(table.rows[selectedFeild.i].cells[selectedFeild.j].children[0] == null) {
                             gameBoard.putFigure(selectedFeild.i,selectedFeild.j,selectedFigure.color);
+                            cell = table.rows[selectedFigure.i].cells[selectedFigure.j];
+                            var child = cell.children[0];
+                            cell.removeChild(child);
                         }
-                        cell = table.rows[selectedFigure.i].cells[selectedFigure.j];
-                        var child = cell.children[0];
-                        cell.removeChild(child);
-                        alert("Cell j" + cell.cellIndex);
-                        alert("Statement is true" + selectedFigure.color);
+                        turnColor = greenColor;
+                    } else if(selectedFigure.color == greenColor && ((selectedFigure.i - selectedFeild.i == -1))
+                                                        && ((selectedFigure.j - selectedFeild.j == 1)
+                                                            || (selectedFigure.j - selectedFeild.j == -1)))
+                    {
+                        var table = document.getElementById(idBoard);
+                        if(table.rows[selectedFeild.i].cells[selectedFeild.j].children[0] == null) {
+                            gameBoard.putFigure(selectedFeild.i,selectedFeild.j,selectedFigure.color);
+                            cell = table.rows[selectedFigure.i].cells[selectedFigure.j];
+                            var child = cell.children[0];
+                            cell.removeChild(child);
+                        }
+                        turnColor = redColor;
                     }
-
                 }
                 rowElement.appendChild(columeElement);
             }
