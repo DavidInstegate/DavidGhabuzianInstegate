@@ -29,26 +29,24 @@ var gameBoard = {
                 }
                 columeElement.align = "center";
                 var id = i * this.boardSize + j;
-                columeElement.setAttribute("id",id);
+                columeElement.setAttribute("id","id" + id);
                 columeElement.onclick = function() {
                     selectedFeild.j = this.cellIndex;
                     selectedFeild.i = this.parentNode.rowIndex;
                     if(selectedFigure.color == redColor && ((selectedFigure.i - selectedFeild.i == 1))
                                                         && ((selectedFigure.j - selectedFeild.j == 1)
-                                                        || (selectedFigure.j - selectedFeild.j == -1)))
-                                {
-                                        var button = document.createElement("input");
-                                        button.setAttribute("type","button");
-                                        button.style.backgroundColor = selectedFigure.color;
-                                        button.onclick = function() {
-                                            selectedFigure.color = this.style.backgroundColor;
-                                            var cell = this.parentNode;
-                                            selectedFigure.j = cell.cellIndex;
-                                            selectedFigure.i = cell.parentNode.rowIndex;
-                                        }
-                                        alert("Statement is true" + selectedFigure.color);
-                                        this.appendChild(button);
-                                    }
+                                                            || (selectedFigure.j - selectedFeild.j == -1)))
+                    {
+                        var table = document.getElementById(idBoard);
+                        if(!table.rows[selecteFeild.i].cells[selectedFeild.j].children[0]) {
+                            gameBoard.putFigure(selectedFeild.i,selectedFeild.j,selectedFigure.color);
+                        }
+                        cell = table.rows[selectedFigure.i].cells[selectedFigure.j];
+                        var child = cell.children[0];
+                        cell.removeChild(child);
+                        alert("Cell j" + cell.cellIndex);
+                        alert("Statement is true" + selectedFigure.color);
+                    }
 
                 }
                 rowElement.appendChild(columeElement);
