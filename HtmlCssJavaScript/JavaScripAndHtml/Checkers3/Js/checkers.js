@@ -8,12 +8,13 @@ var redColor = "red";
 function GameBoard(boardSize) {
     alert("GameBoard");
     this.mBoardSize = boardSize || 8;
-    this.mGameBoard = new Array(boardSize);
+    this.mGameBoard = new Array(boardSize); 
     this.mTable = document.getElementById(idBoard);
-    for (var i = 0; i < boardSize; ++i) {
+    for (var i = 0; i < this.mGameBoard.length; ++i) {
         this.mGameBoard[i] = new Array(boardSize);
-        for (var j = 0; j < boardSize; ++j) {
-            this.mGameBoard[i][j] = boardSize * i + j;
+        for (var j = 0; j < this.mGameBoard.length; ++j) {
+            this.mGameBoard[i][j] = 5;
+            alert(this.mGameBoard[i][j]);
         }
     }
     this.printBoard = printBoard;
@@ -26,24 +27,26 @@ function printBoard() {
     for(var i = 0; i < boardSize; ++i) {
         var rowElement = document.createElement("tr");
         for(var j = 0; j < boardSize; ++j) {
-            var columeElement = document.createElement("td");
+            var columnElement = document.createElement("td");
             if((i+j) % 2 == 0) {
-                columeElement.style.backgroundColor = whiteColor;
+                columnElement.style.backgroundColor = whiteColor;
             } else {
-                columeElement.style.backgroundColor = blackColor;
+                columnElement.style.backgroundColor = blackColor;
             }
-            columeElement.align = "center";
+            columnElement.align = "center";
+            columnElement.innerHTML = this.mGameBoard[i][j]; 
             var id = i * this.boardSize + j;
-            columeElement.setAttribute("id","id" + id);
+            columnElement.setAttribute("id","id" + id);
+            rowElement.appendChild(columnElement);
         }
-        rowElement.appendChild(columeElement);
+        rowElement.appendChild(columnElement);
         table.appendChild(rowElement);
     }
     alert("end printBoard");
 }
 function startGame() {
     alert("Start Game");
-    var boardSize = document.getElementById(idBoardSize);
+    var boardSize = document.getElementById(idBoardSize).vlaue;
     var gameBoard = new GameBoard(boardSize);
     gameBoard.printBoard();
 }
