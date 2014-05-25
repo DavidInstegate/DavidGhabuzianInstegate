@@ -4,17 +4,65 @@ var blackColor = "black";
 var whiteColor = "white";
 var greenColor = "green";
 var redColor = "red";
+function Feild(i,j) {
+    this.mI = i || -1;
+    this.mJ = j || -1;
+    this.setI = setI;
+    this.setJ = setJ;
+    this.getI = getI;
+    this.getJ = getJ;
+}
+function setI(i) {
+    this.mI = i;
+}
+
+function setJ(j) {
+    this.mJ = j;
+}
+
+function getJ() {
+    return this.mJ;
+}
+
+function getI() {
+    return this.mI;
+}
+
+function Figure(feild,figureColor) {
+    this.mOcupatedFeild = new Feild(feild.i,feild.j);
+    this.mFigueColor = figureColor || redColor;
+    this.getFigureColor = getColor;
+    this.getOcupatedFeild = getOcupatedFeild;
+    this.setOcupatedFeild = setOcupatedFeild;
+}
+
+function setOcupatedFeild(i,j) {
+    this.mOcupatedFeild.setI(i);
+    this.mOcupatedFeild.setJ(j);
+}
+
+function getOcupatedFeild() {
+    return this.mOcupatedFeild;
+}
+
+function getFigureColor() {
+    return this.mFigureColor;
+}
 
 function GameBoard(boardSize) {
     alert("GameBoard");
     this.mBoardSize = boardSize || 8;
     this.mGameBoard = new Array(boardSize); 
     this.mTable = document.getElementById(idBoard);
-    for (var i = 0; i < boardSize; ++i) {
+    for(var i = 0; i < boardSize; ++i) {
         this.mGameBoard[i] = new Array(boardSize);
         for (var j = 0; j < boardSize; ++j) {
             this.mGameBoard[i][j] = 0;
-            alert(this.mGameBoard[i][j]);
+        }
+    }
+    for(var i = 0; i < 3; ++i) {
+        for(var j = i % 2; j < boardSize; j += 2) {
+            var figure = new Figure(i,j,greenCollor);
         }
     }
     this.clearTable = clearTable;
@@ -27,6 +75,7 @@ function clearTable(table) {
         table.removeRow(0);
     }
 }
+
 function printBoard() {
     alert("printBoard");
     var table = this.mTable; 
@@ -44,7 +93,12 @@ function printBoard() {
             columnElement.align = "center";
             columnElement.innerHTML = this.mGameBoard[i][j]; 
             var id = i * this.boardSize + j;
-            columnElement.setAttribute("id","id" + id);
+            columnElement.setAttribute("id",id);
+            columnElement.onclick = function() {
+                alert(this.cellIndex);
+                var tr = this.parentNode; 
+                alert(tr.rowIndex);
+            };
             rowElement.appendChild(columnElement);
         }
         rowElement.appendChild(columnElement);
