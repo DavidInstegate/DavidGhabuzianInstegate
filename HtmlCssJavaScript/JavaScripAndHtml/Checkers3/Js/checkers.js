@@ -7,10 +7,15 @@ var greenColor = "green";
 var redColor = "red";
 var noColor = "noColor";
 
+var gameBoardi = 0; 
+var selectedFigure = 0; 
+var board = 0;
+
+
 function Figure(i,j,figureColor) {
     this.mFigureColor = figureColor || noColor;
-    this.mI = i || -1;
-    this.mJ = j || -1;
+    this.mI = i || -3;
+    this.mJ = j || -3;
     this.getI = getI;
     this.setI = setI;
     this.getJ = getJ;
@@ -42,10 +47,6 @@ function getFigureColor() {
     return this.mFigureColor;
 }
 
-var gameBoard; 
-var selectedFigure = new Figure();
-var board;
-
 function startGame() {
     alert("Start Game");
     var boardSize = document.getElementById(idBoardSize).value;
@@ -60,6 +61,7 @@ function GameBoard(boardSize) {
     this.mTable = document.getElementById(idBoard);
     this.putFigure = putFigure;
     this.moveFigure = moveFigure;
+    this.createFigure =createFigure;
     gameBoard = new Array(boardSize);
     for(var i = 0; i < boardSize; ++i) {
         gameBoard[i] = new Array(boardSize);
@@ -70,18 +72,22 @@ function GameBoard(boardSize) {
     var endPoint = boardSize/2 - 2;
     for(var i = 0; i <= endPoint; ++i) {
         for(var j = i % 2; j < boardSize; j += 2) {
-            var figure = new Figure(i,j,greenColor);
-            gameBoard[i][j] = figure;
+            createFigure(i,j,greenColor);
         }
         var redLine = boardSize - i - 1;
+        alert("redLine" + redLine);
         for(var j = redLine % 2; j < boardSize; j += 2) {
-            var figure = new Figure(redLine,j,redColor);
-            gameBoard[redLine][j] = figure;
+            this.createFigure(redLine,j,redColor);
         }
     }
     this.clearTable = clearTable;
     this.printBoard = printBoard;
     alert("end GameBoard");
+}
+
+function createFigure(i,j,figureColor) {
+    var figure = new Figure(i,j,figureColor);
+    gameBoard[i][j] = figure;
 }
 
 function printBoard() {
@@ -120,7 +126,19 @@ function printBoard() {
     table.appendChild(tableBody);
     alert("printBoard end");
 }
-
+function replaceFigure(ocupatedI,ocupatedJ,toI,toJ) {
+    if(gameBoard[toI][toJ] == 0) {
+        gameBoard[toI][toJ] = selectedFigure;
+  //      gameBoard[toI][toJ].setI(toI);
+//        gameBoard[toI][toJ].setJ(toJ);
+        alert("ocupatedI: " + ocupatedI + " ocupatedJ: " + ocupatedJ);
+        gameBoard[ocupatedI][ocupatedJ] = 0;
+        selectedFigure = 0;
+        board.printBoard();
+    } else {
+        alert("You are trying to put selected figure on another figure");
+    }
+}
 function moveFigure(toI,toJ) {
     alert("moveFigure");
     if(selectedFigure != 0) {
@@ -132,14 +150,8 @@ function moveFigure(toI,toJ) {
         if(selectedFigureColor == redColor && ocupatedI - toI == 1
                 && (ocupatedJ - toJ == 1
                     || ocupatedJ - toJ == -1)) {
-                        gameBoard[toI][toJ] = selectedFigure;
-                        gameBoard[toI][toJ].setI(toI);
-                        gameBoard[toI][toJ].setJ(toJ);
-                        alert("ocupatedI: " + ocupatedI + " ocupatedJ: " + ocupatedJ);
-                        gameBoard[ocupatedI][ocupatedJ] = 0;
-                        selectedFigure = 0;
-                        board.printBoard();
-                    }
+                        replaceFigure(ocupatedI,ocupatedJ,toI,toJ);
+                   }
     }
     alert("moveFigure end");
 }
@@ -161,8 +173,11 @@ function putFigure(cell, figure) {
         button.style.backgroundColor = figure.getFigureColor();
         button.onclick = function() {
             var cell = this.parentNode;
-            var i = cell.parentNode.rowIndex;
             var j = cell.cellIndex;
+            alert("onclick button j: " + j);
+            var i = cell.parentNode.rowIndex;
+            gameBoard[i][j].setI(i);
+            gameBoard[i][j].setJ(j);
             selectedFigure = gameBoard[i][j];
             alert("slected figure color is: " + selectedFigure.getFigureColor());
         }
