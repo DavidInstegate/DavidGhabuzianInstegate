@@ -5,18 +5,22 @@ var whiteColor = "white";
 var greenColor = "green";
 var redColor = "red";
 function Feild(i,j) {
+    alert("Feild");
     this.mI = i || -1;
     this.mJ = j || -1;
     this.setI = setI;
     this.setJ = setJ;
     this.getI = getI;
     this.getJ = getJ;
+    alert("end Feild");
 }
 function setI(i) {
+    alert("setI");
     this.mI = i;
 }
 
 function setJ(j) {
+    alert("setJ");
     this.mJ = j;
 }
 
@@ -28,12 +32,14 @@ function getI() {
     return this.mI;
 }
 
-function Figure(feild,figureColor) {
-    this.mOcupatedFeild = new Feild(feild.i,feild.j);
+function Figure(i,j,figureColor) {
+    alert("Figure");
+    this.mOcupatedFeild = new Feild(i,j);
     this.mFigueColor = figureColor || redColor;
-    this.getFigureColor = getColor;
+    this.getFigureColor = getFigureColor;
     this.getOcupatedFeild = getOcupatedFeild;
     this.setOcupatedFeild = setOcupatedFeild;
+    alert("end Figure");
 }
 
 function setOcupatedFeild(i,j) {
@@ -62,7 +68,7 @@ function GameBoard(boardSize) {
     }
     for(var i = 0; i < 3; ++i) {
         for(var j = i % 2; j < boardSize; j += 2) {
-            var figure = new Figure(i,j,greenCollor);
+            var figure = new Figure(i,j,greenColor);
         }
     }
     this.clearTable = clearTable;
@@ -76,6 +82,9 @@ function clearTable(table) {
     }
 }
 
+var selectedFigure = new Figure();
+var selectedFeild = new Feild();
+
 function printBoard() {
     alert("printBoard");
     var table = this.mTable; 
@@ -83,6 +92,10 @@ function printBoard() {
     this.clearTable(table);
     for(var i = 0; i < boardSize; ++i) {
         var rowElement = document.createElement("tr");
+        rowElement.onclick = function() {
+            selectedFeild.setI(this.rowIndex);
+            alert(this.rowIndex);
+        }
         for(var j = 0; j < boardSize; ++j) {
             var columnElement = document.createElement("td");
             if((i+j) % 2 == 0) {
@@ -96,8 +109,6 @@ function printBoard() {
             columnElement.setAttribute("id",id);
             columnElement.onclick = function() {
                 alert(this.cellIndex);
-                var tr = this.parentNode; 
-                alert(tr.rowIndex);
             };
             rowElement.appendChild(columnElement);
         }
