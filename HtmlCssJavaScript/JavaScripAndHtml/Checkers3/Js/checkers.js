@@ -30,7 +30,7 @@ function getI() {
 
 function Figure(i,j,figureColor) {
     this.mOcupatedFeild = new Feild(i,j);
-    this.mFigueColor = figureColor || redColor;
+    this.mFigureColor = figureColor || redColor;
     this.getFigureColor = getFigureColor;
     this.getOcupatedFeild = getOcupatedFeild;
     this.setOcupatedFeild = setOcupatedFeild;
@@ -46,49 +46,67 @@ function getOcupatedFeild() {
 }
 
 function getFigureColor() {
-    alert("getFigureColor");
     return this.mFigureColor;
 }
+
+var gameBoard; 
+var selectedFigure = new Figure();
 
 function GameBoard(boardSize) {
     alert("GameBoard");
     this.mBoardSize = boardSize || 8;
-    this.mGameBoard = new Array(boardSize); 
+    boardSize = this.mBoardSize;
     this.mTable = document.getElementById(idBoard);
     this.putFigure = putFigure;
+    this.moveFigure = moveFigure;
+    gameBoard = new Array(boardSize);
     for(var i = 0; i < boardSize; ++i) {
-        this.mGameBoard[i] = new Array(boardSize);
+        gameBoard[i] = new Array(boardSize);
         for (var j = 0; j < boardSize; ++j) {
-            this.mGameBoard[i][j] = 0;
+            gameBoard[i][j] = 0;
         }
     }
-    for(var i = 0; i < 3; ++i) {
+    var endPoint = boardSize/2 - 2;
+    for(var i = 0; i <= endPoint; ++i) {
         for(var j = i % 2; j < boardSize; j += 2) {
             var figure = new Figure(i,j,greenColor);
-            this.mGameBoard[i][j] = figure;
+            gameBoard[i][j] = figure;
+        }
+        var redLine = boardSize - i - 1;
+        for(var j = redLine % 2; j < boardSize; j += 2) {
+            var figure = new Figure(i,j,redColor);
+            gameBoard[redLine][j] = figure;
         }
     }
     this.clearTable = clearTable;
     this.printBoard = printBoard;
     alert("end GameBoard");
 }
-
+function moveFigure(toI,toJ) {
+    if(selectedFigure != 0) {
+        var ocupatedI = selectedFigure.getI();
+        var ocupatedJ = selectedFigure.getJ();
+        gameBoard[toI][toJ] = figure;
+        gameBoard[ocupatedI][ocupatedJ] = 0;
+    }
+}
 function clearTable(table) {
     while(table.rows.length > 0) {
         table.removeRow(0);
     }
 }
 
-//var selectedFigure = new Figure();
 //var selectedFeild = new Feild();
 function putFigure(cell, figure) {
-    alert("putFigure");
-    alert("putFigure befor (figure != 0)");
+    if(figure != 0 && cell != 0) {
         var button = document.createElement("input");
         button.setAttribute("type","button");
-//        button.style.backgroundColor = figure.getFigureColor();
+        button.style.backgroundColor = figure.getFigureColor();
+        button.onclick = function() {
+            selectedFigure = this;
+        }
         cell.appendChild(button);
-    alert("putFigure end");
+    }
 }
 function printBoard() {
     var table = this.mTable;
@@ -105,16 +123,16 @@ function printBoard() {
                 columnElement.style.backgroundColor = blackColor;
             }
             columnElement.align = "center";
-            columnElement.innerHTML = this.mGameBoard[i][j]; 
             var id = i * this.boardSize + j;
             columnElement.setAttribute("id",id);
             columnElement.onclick = function() {
                 alert(this.cellIndex);
                 alert(this.parentNode.rowIndex);
+                moveFigure(this.parentNode.rowIndex, this.cellIndex);
+                
             };
-            if(this.mGameBoard[i][j] != 0) {
-                this.putFigure(columnElement,this.mGameBoard[i][j]);
-                alert("There is a figure.");
+            if(gameBoard[i][j] != 0) {
+                this.putFigure(columnElement,gameBoard[i][j]);
             }
             rowElement.appendChild(columnElement);
             tableBody.appendChild(rowElement);
