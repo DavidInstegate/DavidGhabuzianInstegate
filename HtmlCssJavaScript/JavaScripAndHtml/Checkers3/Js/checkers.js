@@ -1,5 +1,6 @@
-var idBoard="idBoard";
-var idBoardSize="idBoardSize";
+var idBoard = "idBoard";
+var idBoardSize = "idBoardSize";
+var idTableBody = "idTableBody";
 var blackColor = "black";
 var whiteColor = "white";
 var greenColor = "green";
@@ -21,6 +22,7 @@ function setJ(j) {
 }
 
 function getJ() {
+    alert("getJ");
     return this.mJ;
 }
 
@@ -29,6 +31,7 @@ function setI(i) {
 }
 
 function getI() {
+    alert("getI");
     return this.mI;
 }
 
@@ -79,6 +82,7 @@ function GameBoard(boardSize) {
 }
 
 function printBoard() {
+    alert("printBoard");
     var table = this.mTable;
     this.clearTable(table);
     var tableBody = document.createElement("tbody");
@@ -109,25 +113,31 @@ function printBoard() {
         }
     }
     table.appendChild(tableBody);
+    alert("printBoard end");
 }
 
 function moveFigure(toI,toJ) {
     alert("moveFigure");
     if(selectedFigure != 0) {
         alert("moveFigure inside if");
+        alert("toI: " + toI + " toJ " + toJ);
         var ocupatedI = selectedFigure.getI();
         var ocupatedJ = selectedFigure.getJ();
-        //gameBoard[toI][toJ] = selectedFigure;
-        //gameBoard[ocupatedI][ocupatedJ] = 0;
+        gameBoard[toI][toJ] = selectedFigure;
+        gameBoard[ocupatedI][ocupatedJ] = 0;
         board.printBoard();
     }
     alert("moveFigure end");
 }
 
 function clearTable(table) {
-    while(table.rows.length > 0) {
-        table.removeRow(0);
-    }
+    alert("clearTable");
+    if(table != 0){
+        while(table.hasChildNodes()) {
+            table.removeChild(table.firstChild);
+        }
+     }
+    alert("clearTable end");
 }
 
 function putFigure(cell, figure) {
@@ -140,7 +150,7 @@ function putFigure(cell, figure) {
             var cell = this.parentNode;
             var i = cell.cellIndex;
             var j = cell.parentNode.rowIndex;
-            selectedFigure = gameBoard[i][j];
+         //   selectedFigure = gameBoard[i][j];
             alert("slected figure color is: " + selectedFigure.getFigureColor());
 
         }
