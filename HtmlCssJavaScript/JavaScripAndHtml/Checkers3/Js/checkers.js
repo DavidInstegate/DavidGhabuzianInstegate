@@ -68,7 +68,7 @@ function GameBoard(boardSize) {
     }
     for(var i = 0; i < 3; ++i) {
         for(var j = i % 2; j < boardSize; j += 2) {
-            var figure = new Figure(i,j,greenColor);
+//            var figure = new Figure(i,j,greenColor);
         }
     }
     this.clearTable = clearTable;
@@ -82,18 +82,20 @@ function clearTable(table) {
     }
 }
 
-var selectedFigure = new Figure();
-var selectedFeild = new Feild();
+//var selectedFigure = new Figure();
+//var selectedFeild = new Feild();
 
 function printBoard() {
     alert("printBoard");
-    var table = this.mTable; 
+//    this.clearTable(table);
+    var table = this.mTable;
+    var tableBody = document.createElement("tbody");
     boardSize = this.mBoardSize;
-    this.clearTable(table);
+    alert("printBoard befor for");
     for(var i = 0; i < boardSize; ++i) {
         var rowElement = document.createElement("tr");
         rowElement.onclick = function() {
-            selectedFeild.setI(this.rowIndex);
+            //selectedFeild.setI(this.rowIndex);
             alert(this.rowIndex);
         }
         for(var j = 0; j < boardSize; ++j) {
@@ -111,9 +113,10 @@ function printBoard() {
                 alert(this.cellIndex);
             };
             rowElement.appendChild(columnElement);
+            tableBody.insertRow(-1);
         }
-        rowElement.appendChild(columnElement);
-        table.appendChild(rowElement);
+        table.appendChild(tableBody);
+        
     }
     alert("end printBoard");
 }
