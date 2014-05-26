@@ -1,5 +1,6 @@
 var idBoard = "idBoard";
 var idBoardSize = "idBoardSize";
+var idTurn = "idTurn";
 var idTableBody = "idTableBody";
 var blackColor = "black";
 var whiteColor = "white";
@@ -89,6 +90,9 @@ function printBoard() {
     var table = this.mTable;
     this.clearTable(table);
     var tableBody = document.createElement("tbody");
+    var turn = document.getElementById(idTurn);
+    turn.style.color = turnColor;
+    turn.innerHTML = "Now turn of " + turnColor;
     boardSize = this.mBoardSize;
     for(var i = 0; i < boardSize; ++i) {
         var row = document.createElement("tr");
