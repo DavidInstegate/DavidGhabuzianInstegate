@@ -90,9 +90,6 @@ function printBoard() {
     var table = this.mTable;
     this.clearTable(table);
     var tableBody = document.createElement("tbody");
-    var turn = document.getElementById(idTurn);
-    turn.style.color = turnColor;
-    turn.innerHTML = "Now turn of " + turnColor;
     boardSize = this.mBoardSize;
     for(var i = 0; i < boardSize; ++i) {
         var row = document.createElement("tr");
@@ -108,7 +105,7 @@ function printBoard() {
             cell.setAttribute("id",id);
             cell.onclick = function() {
                 moveFigure(this.parentNode.rowIndex,this.cellIndex);
-                
+
             };
             if(gameBoard[i][j] != 0) {
                 if(gameBoard[i][j].getFigureColor() != noColor) {
@@ -119,11 +116,19 @@ function printBoard() {
             tableBody.appendChild(row);
         }
     }
+    var turn = document.getElementById(idTurn);
+    turn.style.color = turnColor;
+    turn.innerHTML = "Now turn of " + turnColor;
     table.appendChild(tableBody);
 }
 
 function replaceFigure(ocupatedI,ocupatedJ,toI,toJ) {
     if(gameBoard[toI][toJ] == 0) {
+        if(turnColor == redColor) {
+            turnColor = greenColor;
+        } else {
+            turnColor = redColor;
+        }
         gameBoard[toI][toJ] = selectedFigure;
         gameBoard[toI][toJ].setI(toI);
         gameBoard[toI][toJ].setJ(toJ);
@@ -132,6 +137,7 @@ function replaceFigure(ocupatedI,ocupatedJ,toI,toJ) {
         board.printBoard();
     } else {
         alert("You are trying to put selected figure on other figure.");
+        return;
     }
 }
 
@@ -147,13 +153,14 @@ function moveFigure(toI,toJ) {
                 && (ocupatedJ - toJ == 1
                     || ocupatedJ - toJ == -1)) {
                         replaceFigure(ocupatedI,ocupatedJ,toI,toJ);
-                   } else if(selectedFigureColor == greenColor && ocupatedI - toI == -1
-                && (ocupatedJ - toJ == 1
-                    || ocupatedJ - toJ == -1)) {
-                        replaceFigure(ocupatedI,ocupatedJ,toI,toJ);
-                   } else {
-                       alert("You have selected incorect feild.");
-                   }
+                    } else if(selectedFigureColor == greenColor && ocupatedI - toI == -1
+                            && (ocupatedJ - toJ == 1
+                                || ocupatedJ - toJ == -1)) {
+                                    replaceFigure(ocupatedI,ocupatedJ,toI,toJ);
+                                } else {
+                                    alert("You have selected incorect feild.");
+                                }
+
     }
 }
 
@@ -162,7 +169,7 @@ function clearTable(table) {
         while(table.hasChildNodes()) {
             table.removeChild(table.firstChild);
         }
-     }
+    }
 }
 
 function putFigure(cell, figure) {
@@ -177,13 +184,8 @@ function putFigure(cell, figure) {
             if(turnColor == gameBoard[i][j].getFigureColor()) {
                 selectedFigure = gameBoard[i][j];
             } else {
-                alert("Now is not turn of " + gameBoard[i][j].getFigureColor());
+                alert("Now is not turn of " + turnColor); 
                 return;
-            }
-            if(turnColor == redColor) {
-                turnColor = greenColor;
-            } else {
-                turnColor = redColor;
             }
         }
         cell.appendChild(button);
