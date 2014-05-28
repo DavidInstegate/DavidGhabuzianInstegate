@@ -4,3 +4,6 @@ function first() {
 function notTrue() {
     return false;
 }
+function sayHello() {
+    return "hello";
+}
