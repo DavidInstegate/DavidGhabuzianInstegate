@@ -1,19 +1,14 @@
 <html>
 <body>
 <?php
-$viewer = getenv( "HTTP_USER_AGENT" );
-$browser = "An unidentified browser";
-if( preg_match( "/MSIE/i", "$viewer" ) )
-{
-    $browser = "Internet Explorer";
-}
-else if(  preg_match( "/Netscape/i", "$viewer" ) )
-{
-    $browser = "Netscape";
-}
-else if(  preg_match( "/Mozilla/i", "$viewer" ) )
-{
-    $browser = "Mozilla";
+$user = getenv( "HTTP_USER_AGENT" );
+$browser = "An unidentified browsero";
+$browsers = array('firefox','opera', 'chrome', 'safari', 'mozilla', 'netscape');
+foreach($browsers as $current) {
+    if(preg_match($current,$user)) {
+        $browser = $current;
+        break;
+    }
 }
 $platform = "An unidentified OS!";
 if( preg_match( "/Windows/i", "$viewer" ) )
