@@ -1,0 +1,5 @@
+------------------------------------------------------
+How sessions interchange data betwin each other
+
+http://am1.php.net/manual/en/function.session-id.php
+-----------------------------------------------------
