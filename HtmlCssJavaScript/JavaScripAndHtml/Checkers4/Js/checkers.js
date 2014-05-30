@@ -25,6 +25,15 @@ function Figure(i,j,figureColor) {
     this.getFigureColor = getFigureColor;
 }
 
+function Feild(i,j) {
+    this.mI = i || -1;
+    this.mJ = j || -1;
+    this.getI = getI;
+    this.setI = setI;
+    this.getJ = getJ;
+    this.setJ = setJ;
+}
+
 function setJ(j) {
     this.mJ = j;
 }
