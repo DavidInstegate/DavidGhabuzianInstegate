@@ -2,9 +2,20 @@ README
 
 ----------------CONTENT-----------------
 
-This program is a short PHP script which
-determines type of web browser and operating
-system which is being used by user.
+This a short PHP script which determines
+type of web browser and operating
+system which are being used by user.
+
+-----------How to run this page----------
+
+For running this page you need to install
+a web server on computer which must deliver
+users and put the sait into coresponding
+directory.
+For example you can the Apache web server
+and then put the sait into /var/www directory.
+The above mentioned directory will be available
+if you use Ubuntu operating system.
 
 -----------Authors and contacts----------
 
