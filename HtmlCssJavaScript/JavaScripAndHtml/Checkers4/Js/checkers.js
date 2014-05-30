@@ -10,43 +10,61 @@ var turnColor = redColor;
 var noColor = "noColor";
 
 var gameBoardi = 0; 
-var selectedFigure = 0; 
+var selectedFigure = 0;
+var selectedFeild = 0;
 var board = 0;
 
+function Feild(i,j) {
+    this.mI = i || -1;
+    this.mJ = j || -1;
+    this.getFeildI = getFeildI;
+    this.setFeildI = setFeildI;
+    this.getFeildJ = getFeildJ;
+    this.setFeildJ = setFeildJ;
+}
+
+function getFeildI() {
+    alert("mI = " + this.mI);
+    return this.mI;
+}
+
+function setFeildI(i) {
+    this.mI = i;
+}
+
+function getFeildJ() {
+    alert("mJ = " + this.mJ);
+    return this.mJ;
+}
+
+function setFeildJ(j) {
+    this.mJ = j;
+}
 
 function Figure(i,j,figureColor) {
     this.mFigureColor = figureColor || noColor;
     this.mI = i || -1;
     this.mJ = j || -1;
-    this.getI = getI;
-    this.setI = setI;
-    this.getJ = getJ;
-    this.setJ = setJ;
+    this.getFigureI = getFigureI;
+    this.setFigureI = setFigureI;
+    this.getFigureJ = getFigureJ;
+    this.setFigureJ = setFigureJ;
     this.getFigureColor = getFigureColor;
 }
 
-function Feild(i,j) {
-    this.mI = i || -1;
-    this.mJ = j || -1;
-    this.getI = getI;
-    this.setI = setI;
-    this.getJ = getJ;
-    this.setJ = setJ;
-}
-
-function setJ(j) {
+function setFigureJ(j) {
     this.mJ = j;
 }
 
-function getJ() {
+function getFigureJ() {
     return this.mJ;
 }
 
-function setI(i) {
+function setFigureI(i) {
     this.mI = i;
 }
 
-function getI() {
+function getFigureI() {
     return this.mI;
 }
 
@@ -90,8 +108,8 @@ function GameBoard(boardSize) {
 
 function createFigure(i,j,figureColor) {
     var figure = new Figure(i,j,figureColor);
-    figure.setI(i);
-    figure.setJ(j);
+    figure.setFigureI(i);
+    figure.setFigureJ(j);
     gameBoard[i][j] = figure;
 }
 
@@ -113,7 +131,18 @@ function printBoard() {
             var id = i * this.boardSize + j;
             cell.setAttribute("id",id);
             cell.onclick = function() {
-                moveFigure(this.parentNode.rowIndex,this.cellIndex);
+                if(selectedFeild == 0) {
+                    selectedFeild = new Feild(this.parentNode.rowIndex,this.cellIndex);
+                    this.setFeildI(this.parentNode.rowIndex);
+                    this.setFeildJ(this.cellIndex);
+                } else {
+                    selectedFeild = 0;
+                    selectedFeild = new Feild(this.parentNode.rowIndex,this.cellIndex);
+                    this.setFeildI(this.parentNode.rowIndex);
+                    this.setFeildJ(this.cellIndex);
+                }
+                alert("On feild click");
+                moveFigure();
 
             };
             if(gameBoard[i][j] != 0) {
@@ -139,8 +168,8 @@ function replaceFigure(ocupatedI,ocupatedJ,toI,toJ) {
             turnColor = redColor;
         }
         gameBoard[toI][toJ] = selectedFigure;
-        gameBoard[toI][toJ].setI(toI);
-        gameBoard[toI][toJ].setJ(toJ);
+        gameBoard[toI][toJ].setFigureI(toI);
+        gameBoard[toI][toJ].setFigureJ(toJ);
         gameBoard[ocupatedI][ocupatedJ] = 0;
         selectedFigure = 0;
         board.printBoard();
@@ -150,11 +179,13 @@ function replaceFigure(ocupatedI,ocupatedJ,toI,toJ) {
     }
 }
 
-function moveFigure(toI,toJ) {
+function moveFigure() {
     if(selectedFigure != 0) {
-        var ocupatedI = selectedFigure.getI();
-        var ocupatedJ = selectedFigure.getJ();
+        var ocupatedI = selectedFigure.getFigureI();
+        var ocupatedJ = selectedFigure.getFigureJ();
         var selectedFigureColor = selectedFigure.getFigureColor();
+        var toI = selectedFeild.getFeildI();
+        var toJ = selectedFeild.getFeildJ();
         if (ocupatedI == toI && ocupatedJ == toJ) {
             return;
         }
