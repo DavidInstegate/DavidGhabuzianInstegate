@@ -24,7 +24,6 @@ function Feild(i,j) {
 }
 
 function getFeildI() {
-    alert("mI = " + this.mI);
     return this.mI;
 }
 
@@ -33,7 +32,6 @@ function setFeildI(i) {
 }
 
 function getFeildJ() {
-    alert("mJ = " + this.mJ);
     return this.mJ;
 }
 
@@ -133,15 +131,14 @@ function printBoard() {
             cell.onclick = function() {
                 if(selectedFeild == 0) {
                     selectedFeild = new Feild(this.parentNode.rowIndex,this.cellIndex);
-                    this.setFeildI(this.parentNode.rowIndex);
-                    this.setFeildJ(this.cellIndex);
+                    selectedFeild.setFeildI(this.parentNode.rowIndex);
+                    selectedFeild.setFeildJ(this.cellIndex);
                 } else {
                     selectedFeild = 0;
                     selectedFeild = new Feild(this.parentNode.rowIndex,this.cellIndex);
-                    this.setFeildI(this.parentNode.rowIndex);
-                    this.setFeildJ(this.cellIndex);
+                    selectedFeild.setFeildI(this.parentNode.rowIndex);
+                    selectedFeild.setFeildJ(this.cellIndex);
                 }
-                alert("On feild click");
                 moveFigure();
 
             };
