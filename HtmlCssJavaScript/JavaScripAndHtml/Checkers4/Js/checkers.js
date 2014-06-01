@@ -9,7 +9,7 @@ var redColor = "red";
 var turnColor = redColor;
 var noColor = "noColor";
 
-var gameBoardi = 0; 
+var gameBoard = 0; 
 var selectedFigure = 0;
 var selectedFeild = 0;
 var board = 0;
@@ -17,25 +17,25 @@ var board = 0;
 function Feild(i,j) {
     this.mI = i || -1;
     this.mJ = j || -1;
-    this.getFeildI = getFeildI;
-    this.setFeildI = setFeildI;
-    this.getFeildJ = getFeildJ;
-    this.setFeildJ = setFeildJ;
+    this.getFieldI = getFieldI;
+    this.setFieldI = setFieldI;
+    this.getFieldJ = getFieldJ;
+    this.setFieldJ = setFieldJ;
 }
 
-function getFeildI() {
+function getFieldI() {
     return this.mI;
 }
 
-function setFeildI(i) {
+function setFieldI(i) {
     this.mI = i;
 }
 
-function getFeildJ() {
+function getFieldJ() {
     return this.mJ;
 }
 
-function setFeildJ(j) {
+function setFieldJ(j) {
     this.mJ = j;
 }
 
@@ -131,13 +131,13 @@ function printBoard() {
             cell.onclick = function() {
                 if(selectedFeild == 0) {
                     selectedFeild = new Feild(this.parentNode.rowIndex,this.cellIndex);
-                    selectedFeild.setFeildI(this.parentNode.rowIndex);
-                    selectedFeild.setFeildJ(this.cellIndex);
+                    selectedFeild.setFieldI(this.parentNode.rowIndex);
+                    selectedFeild.setFieldJ(this.cellIndex);
                 } else {
                     selectedFeild = 0;
                     selectedFeild = new Feild(this.parentNode.rowIndex,this.cellIndex);
-                    selectedFeild.setFeildI(this.parentNode.rowIndex);
-                    selectedFeild.setFeildJ(this.cellIndex);
+                    selectedFeild.setFieldI(this.parentNode.rowIndex);
+                    selectedFeild.setFieldJ(this.cellIndex);
                 }
                 moveFigure();
 
@@ -181,8 +181,8 @@ function moveFigure() {
         var ocupatedI = selectedFigure.getFigureI();
         var ocupatedJ = selectedFigure.getFigureJ();
         var selectedFigureColor = selectedFigure.getFigureColor();
-        var toI = selectedFeild.getFeildI();
-        var toJ = selectedFeild.getFeildJ();
+        var toI = selectedFeild.getFieldI();
+        var toJ = selectedFeild.getFieldJ();
         if (ocupatedI == toI && ocupatedJ == toJ) {
             return;
         }
