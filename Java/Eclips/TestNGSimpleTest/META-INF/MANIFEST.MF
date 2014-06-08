@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: TestNGSimpleTest
+Bundle-SymbolicName: TestNGSimpleTest
+Bundle-Version: 1.0.0.qualifier
+Bundle-ClassPath: TestNGSimpleTest.jar,
+ bhabuzian/TestNG/testng-6.8.jar
+Export-Package: .
