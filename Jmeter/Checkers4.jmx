@@ -15,7 +15,7 @@
         <collectionProp name="Arguments.arguments">
           <elementProp name="USERS_COUNT" elementType="Argument">
             <stringProp name="Argument.name">USERS_COUNT</stringProp>
-            <stringProp name="Argument.value">${_P(USERS,)}</stringProp>
+            <stringProp name="Argument.value">${__P(USERS,5)}</stringProp>
             <stringProp name="Argument.desc">The count of users</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
