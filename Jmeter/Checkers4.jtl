@@ -1,9 +1,50 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testResults version="1.2">
-
-
-
-
-
-
-</testResults>
+1402516648761,139,HTTP Checkers4 Request,200,OK,Users 1-1,text,true,1363,119
+1402516648763,127,HTTP Checkers4 Request,200,OK,Users 1-2,text,true,1363,120
+1402516648763,127,HTTP Checkers4 Request,200,OK,Users 1-3,text,true,1363,120
+1402516648907,8,HTTP Checkers4 Request,200,OK,Users 1-2,text,true,1362,2
+1402516648916,6,HTTP Checkers4 Request,200,OK,Users 1-2,text,true,1362,1
+1402516648907,16,HTTP Checkers4 Request,200,OK,Users 1-3,text,true,1362,1
+1402516648919,6,HTTP Checkers4 Request,200,OK,Users 1-1,text,true,1362,1
+1402516648923,4,HTTP Checkers4 Request,200,OK,Users 1-2,text,true,1362,1
+1402516648928,3,HTTP Checkers4 Request,200,OK,Users 1-2,text,true,1362,1
+1402516648924,7,HTTP Checkers4 Request,200,OK,Users 1-3,text,true,1362,3
+1402516648926,7,HTTP Checkers4 Request,200,OK,Users 1-1,text,true,1362,3
+1402516648918,17,HTTP Checkers4 Request,200,OK,Users 1-4,text,true,1363,15
+1402516648932,7,HTTP Checkers4 Request,200,OK,Users 1-2,text,true,1362,5
+1402516648932,7,HTTP Checkers4 Request,200,OK,Users 1-3,text,true,1362,4
+1402516648934,7,HTTP Checkers4 Request,200,OK,Users 1-1,text,true,1362,3
+1402516648940,7,HTTP Checkers4 Request,200,OK,Users 1-3,text,true,1362,3
+1402516648942,7,HTTP Checkers4 Request,200,OK,Users 1-1,text,true,1362,2
+1402516648936,23,HTTP Checkers4 Request,200,OK,Users 1-4,text,true,1362,19
+1402516648948,12,HTTP Checkers4 Request,200,OK,Users 1-3,text,true,1362,5
+1402516648950,12,HTTP Checkers4 Request,200,OK,Users 1-1,text,true,1362,2
+1402516648961,7,HTTP Checkers4 Request,200,OK,Users 1-3,text,true,1362,4
+1402516648957,13,HTTP Checkers4 Request,200,OK,Users 1-2,text,true,1362,4
+1402516648963,9,HTTP Checkers4 Request,200,OK,Users 1-1,text,true,1362,3
+1402516648960,12,HTTP Checkers4 Request,200,OK,Users 1-4,text,true,1362,8
+1402516648973,4,HTTP Checkers4 Request,200,OK,Users 1-1,text,true,1362,2
+1402516648969,10,HTTP Checkers4 Request,200,OK,Users 1-3,text,true,1362,5
+1402516648978,7,HTTP Checkers4 Request,200,OK,Users 1-1,text,true,1362,3
+1402516648971,16,HTTP Checkers4 Request,200,OK,Users 1-2,text,true,1362,12
+1402516648980,7,HTTP Checkers4 Request,200,OK,Users 1-3,text,true,1362,3
+1402516648973,16,HTTP Checkers4 Request,200,OK,Users 1-4,text,true,1362,12
+1402516648986,7,HTTP Checkers4 Request,200,OK,Users 1-1,text,true,1362,3
+1402516648988,6,HTTP Checkers4 Request,200,OK,Users 1-3,text,true,1362,3
+1402516648988,13,HTTP Checkers4 Request,200,OK,Users 1-2,text,true,1362,9
+1402516648990,13,HTTP Checkers4 Request,200,OK,Users 1-4,text,true,1362,9
+1402516649002,8,HTTP Checkers4 Request,200,OK,Users 1-2,text,true,1362,3
+1402516649004,9,HTTP Checkers4 Request,200,OK,Users 1-4,text,true,1362,7
+1402516649014,7,HTTP Checkers4 Request,200,OK,Users 1-4,text,true,1362,6
+1402516649022,7,HTTP Checkers4 Request,200,OK,Users 1-4,text,true,1362,1
+1402516649029,3,HTTP Checkers4 Request,200,OK,Users 1-4,text,true,1362,1
+1402516649032,2,HTTP Checkers4 Request,200,OK,Users 1-4,text,true,1362,1
+1402516649116,3,HTTP Checkers4 Request,200,OK,Users 1-5,text,true,1363,2
+1402516649119,2,HTTP Checkers4 Request,200,OK,Users 1-5,text,true,1362,1
+1402516649121,2,HTTP Checkers4 Request,200,OK,Users 1-5,text,true,1362,1
+1402516649123,2,HTTP Checkers4 Request,200,OK,Users 1-5,text,true,1362,1
+1402516649126,2,HTTP Checkers4 Request,200,OK,Users 1-5,text,true,1362,1
+1402516649128,2,HTTP Checkers4 Request,200,OK,Users 1-5,text,true,1362,1
+1402516649131,2,HTTP Checkers4 Request,200,OK,Users 1-5,text,true,1362,1
+1402516649134,3,HTTP Checkers4 Request,200,OK,Users 1-5,text,true,1362,1
+1402516649138,2,HTTP Checkers4 Request,200,OK,Users 1-5,text,true,1362,1
+1402516649141,2,HTTP Checkers4 Request,200,OK,Users 1-5,text,true,1362,1

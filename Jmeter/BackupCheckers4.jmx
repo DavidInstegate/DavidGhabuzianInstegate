@@ -15,13 +15,13 @@
         <collectionProp name="Arguments.arguments">
           <elementProp name="USERS_COUNT" elementType="Argument">
             <stringProp name="Argument.name">USERS_COUNT</stringProp>
-            <stringProp name="Argument.value">${_P(USERS,)}</stringProp>
+            <stringProp name="Argument.value">5</stringProp>
             <stringProp name="Argument.desc">The count of users</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="LOOP_COUNTS" elementType="Argument">
             <stringProp name="Argument.name">LOOP_COUNTS</stringProp>
-            <stringProp name="Argument.value">1</stringProp>
+            <stringProp name="Argument.value">10</stringProp>
             <stringProp name="Argument.desc">count of loops</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
