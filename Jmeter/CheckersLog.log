@@ -1,0 +1,40 @@
+2014/06/11 21:56:08 INFO  - jmeter.util.JMeterUtils: Setting Locale to en_US 
+2014/06/11 21:56:08 INFO  - jmeter.JMeter: Copyright (c) 1998-2009 The Apache Software Foundation 
+2014/06/11 21:56:08 INFO  - jmeter.JMeter: Version 2.3.4 
+2014/06/11 21:56:08 INFO  - jmeter.JMeter: java.version=1.6.0_31 
+2014/06/11 21:56:08 INFO  - jmeter.JMeter: java.vm.name=OpenJDK Server VM 
+2014/06/11 21:56:08 INFO  - jmeter.JMeter: os.name=Linux 
+2014/06/11 21:56:08 INFO  - jmeter.JMeter: os.arch=i386 
+2014/06/11 21:56:08 INFO  - jmeter.JMeter: os.version=3.8.0-29-generic 
+2014/06/11 21:56:08 INFO  - jmeter.JMeter: file.encoding=UTF-8 
+2014/06/11 21:56:08 INFO  - jmeter.JMeter: Default Locale=English (United States) 
+2014/06/11 21:56:08 INFO  - jmeter.JMeter: JMeter  Locale=English (United States) 
+2014/06/11 21:56:08 INFO  - jmeter.JMeter: JMeterHome=/usr/share/jmeter 
+2014/06/11 21:56:08 INFO  - jmeter.JMeter: user.dir  =/usr/bin 
+2014/06/11 21:56:08 INFO  - jmeter.JMeter: PWD       =/usr/bin 
+2014/06/11 21:56:08 INFO  - jmeter.JMeter: IP: 127.0.1.1 Name: Ghabuzian-desktop FullName: Ghabuzian-desktop 
+2014/06/11 21:56:08 INFO  - jmeter.services.FileServer: Default base=/usr/bin 
+2014/06/11 21:56:08 INFO  - jmeter.services.FileServer: Set new base=/home/bhabuzian/DavidGhabuzianInstegate/Jmeter 
+2014/06/11 21:56:08 INFO  - jmeter.JMeter: Loading file: /home/bhabuzian/DavidGhabuzianInstegate/Jmeter/Checkers4.jmx 
+2014/06/11 21:56:08 INFO  - jmeter.save.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2 
+2014/06/11 21:56:08 INFO  - jmeter.save.SaveService: Using SaveService properties file encoding UTF-8 
+2014/06/11 21:56:08 INFO  - jmeter.save.SaveService: Using SaveService properties file version 697317 
+2014/06/11 21:56:08 INFO  - jmeter.save.SaveService: Using SaveService properties version 2.1 
+2014/06/11 21:56:08 INFO  - jmeter.save.SaveService: All converter versions present and correct 
+2014/06/11 21:56:08 INFO  - jmeter.samplers.SampleResult: Note: Sample TimeStamps are END times 
+2014/06/11 21:56:08 INFO  - jmeter.samplers.SampleResult: sampleresult.default.encoding is set to ISO-8859-1 
+2014/06/11 21:56:08 INFO  - jmeter.engine.StandardJMeterEngine: Listeners will be started after enabling running version 
+2014/06/11 21:56:08 INFO  - jmeter.engine.StandardJMeterEngine: To revert to the earlier behaviour, define jmeterengine.startlistenerslater=false 
+2014/06/11 21:56:08 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2014/06/11 21:56:09 INFO  - jmeter.JMeter: Running test (1402509369378) 
+2014/06/11 21:56:09 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group Users. Ramp up = 1. 
+2014/06/11 21:56:09 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2014/06/11 21:56:09 INFO  - jmeter.threads.JMeterThread: jmeterthread.startearlier=true (see jmeter.properties) 
+2014/06/11 21:56:09 INFO  - jmeter.threads.JMeterThread: Running PostProcessors in forward order 
+2014/06/11 21:56:09 INFO  - jmeter.engine.StandardJMeterEngine: All threads have been started 
+2014/06/11 21:56:09 INFO  - jmeter.threads.JMeterThread: Thread started: Users 1-1 
+2014/06/11 21:56:09 INFO  - jmeter.threads.JMeterThread: Thread finished: Users 1-1 
+2014/06/11 21:56:09 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Users 1-1 
+2014/06/11 21:56:09 INFO  - jmeter.engine.StandardJMeterEngine: Stopping test 
+2014/06/11 21:56:09 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2014/06/11 21:56:09 INFO  - jmeter.engine.StandardJMeterEngine: Test has ended 
