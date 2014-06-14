@@ -8968,3 +8968,491 @@ Caused by: java.util.NoSuchElementException
 	at java.util.StringTokenizer.nextToken(StringTokenizer.java:349)
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 13 more
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2014-06-14 21:06:17.514
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://m2eclipse.sonatype.org/sites/m2e.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:393)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:675)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:117)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:102)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$2.runModal(PreloadingRepositoryHandler.java:82)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2014-06-14 21:06:17.515
+!MESSAGE No repository found at http://m2eclipse.sonatype.org/sites/m2e.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2014-06-14 21:06:17.571
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at jar:file:/home/bhabuzian/DavidGhabuzianInstegate/Java/TestNG/testng-6.8/testng-6.8.jar!/.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:393)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:675)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:117)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:102)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$2.runModal(PreloadingRepositoryHandler.java:82)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2014-06-14 21:06:17.571
+!MESSAGE No repository found at jar:file:/home/bhabuzian/DavidGhabuzianInstegate/Java/TestNG/testng-6.8/testng-6.8.jar!/.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2014-06-14 21:06:35.598
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at jar:file:/home/bhabuzian/TestNG/testng-6.8.jar!/.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:393)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:675)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:117)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:102)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$2.runModal(PreloadingRepositoryHandler.java:82)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2014-06-14 21:06:35.599
+!MESSAGE No repository found at jar:file:/home/bhabuzian/TestNG/testng-6.8.jar!/.
+
+!ENTRY org.eclipse.equinox.p2.ui 4 1000 2014-06-14 21:06:35.599
+!MESSAGE Some sites could not be found.  See the error log for more detail.
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2014-06-14 21:06:35.600
+!MESSAGE No repository found at http://m2eclipse.sonatype.org/sites/m2e.
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2014-06-14 21:06:35.600
+!MESSAGE No repository found at jar:file:/home/bhabuzian/DavidGhabuzianInstegate/Java/TestNG/testng-6.8/testng-6.8.jar!/.
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2014-06-14 21:06:35.600
+!MESSAGE No repository found at jar:file:/home/bhabuzian/TestNG/testng-6.8.jar!/.
+!SESSION 2014-06-14 21:08:20.074 -----------------------------------------------
+eclipse.buildId=I20110613-1736
+java.version=1.6.0_31
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86
+
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 21:08:36.797
+!MESSAGE Errors while indexing
+!STACK 0
+java.lang.IllegalArgumentException: invalid format: 
+	at org.osgi.framework.Version.<init>(Version.java:150)
+	at org.eclipse.help.internal.search.SearchIndex.isLuceneCompatible(SearchIndex.java:721)
+	at org.eclipse.help.internal.search.PluginIndex.isCompatible(PluginIndex.java:152)
+	at org.eclipse.help.internal.search.PluginIndex.resolve(PluginIndex.java:83)
+	at org.eclipse.help.internal.search.PluginIndex.getPaths(PluginIndex.java:231)
+	at org.eclipse.help.internal.search.PrebuiltIndexes.trim(PrebuiltIndexes.java:46)
+	at org.eclipse.help.internal.search.PrebuiltIndexes.getIndexes(PrebuiltIndexes.java:54)
+	at org.eclipse.help.internal.search.IndexingOperation.mergeIndexes(IndexingOperation.java:544)
+	at org.eclipse.help.internal.search.IndexingOperation.addNewDocuments(IndexingOperation.java:152)
+	at org.eclipse.help.internal.search.IndexingOperation.execute(IndexingOperation.java:106)
+	at org.eclipse.help.internal.search.LocalSearchManager.updateIndex(LocalSearchManager.java:671)
+	at org.eclipse.help.internal.search.LocalSearchManager.ensureIndexUpdated(LocalSearchManager.java:645)
+	at org.eclipse.help.internal.search.federated.IndexerJob.run(IndexerJob.java:31)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: java.util.NoSuchElementException
+	at java.util.StringTokenizer.nextToken(StringTokenizer.java:349)
+	at org.osgi.framework.Version.<init>(Version.java:127)
+	... 13 more
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2014-06-14 21:09:14.400
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://m2eclipse.sonatype.org/sites/m2e.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:393)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:675)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:117)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:102)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$2.runModal(PreloadingRepositoryHandler.java:82)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2014-06-14 21:09:14.402
+!MESSAGE No repository found at http://m2eclipse.sonatype.org/sites/m2e.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2014-06-14 21:09:14.439
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at jar:file:/home/bhabuzian/DavidGhabuzianInstegate/Java/TestNG/testng-6.8/testng-6.8.jar!/.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:393)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:675)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:117)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:102)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$2.runModal(PreloadingRepositoryHandler.java:82)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2014-06-14 21:09:14.440
+!MESSAGE No repository found at jar:file:/home/bhabuzian/DavidGhabuzianInstegate/Java/TestNG/testng-6.8/testng-6.8.jar!/.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2014-06-14 21:09:32.724
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at jar:file:/home/bhabuzian/apache-maven-3.2.1/boot/plexus-classworlds-2.5.1.jar!/.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:393)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:675)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:117)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:102)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$2.runModal(PreloadingRepositoryHandler.java:82)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2014-06-14 21:09:32.724
+!MESSAGE No repository found at jar:file:/home/bhabuzian/apache-maven-3.2.1/boot/plexus-classworlds-2.5.1.jar!/.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2014-06-14 21:09:32.733
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at jar:file:/home/bhabuzian/TestNG/testng-6.8.jar!/.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:393)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:675)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:117)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:102)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$2.runModal(PreloadingRepositoryHandler.java:82)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2014-06-14 21:09:32.734
+!MESSAGE No repository found at jar:file:/home/bhabuzian/TestNG/testng-6.8.jar!/.
+
+!ENTRY org.eclipse.equinox.p2.ui 4 1000 2014-06-14 21:09:32.734
+!MESSAGE Some sites could not be found.  See the error log for more detail.
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2014-06-14 21:09:32.734
+!MESSAGE No repository found at http://m2eclipse.sonatype.org/sites/m2e.
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2014-06-14 21:09:32.734
+!MESSAGE No repository found at jar:file:/home/bhabuzian/DavidGhabuzianInstegate/Java/TestNG/testng-6.8/testng-6.8.jar!/.
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2014-06-14 21:09:32.734
+!MESSAGE No repository found at jar:file:/home/bhabuzian/apache-maven-3.2.1/boot/plexus-classworlds-2.5.1.jar!/.
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2014-06-14 21:09:32.735
+!MESSAGE No repository found at jar:file:/home/bhabuzian/TestNG/testng-6.8.jar!/.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2014-06-14 21:10:32.020
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://m2eclipse.sonatype.org/sites/m2e.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:393)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:636)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:117)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:102)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$2.runModal(PreloadingRepositoryHandler.java:82)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2014-06-14 21:10:32.021
+!MESSAGE No repository found at http://m2eclipse.sonatype.org/sites/m2e.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2014-06-14 21:10:32.021
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at jar:file:/home/bhabuzian/DavidGhabuzianInstegate/Java/TestNG/testng-6.8/testng-6.8.jar!/.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:393)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:636)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:117)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:102)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$2.runModal(PreloadingRepositoryHandler.java:82)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2014-06-14 21:10:32.021
+!MESSAGE No repository found at jar:file:/home/bhabuzian/DavidGhabuzianInstegate/Java/TestNG/testng-6.8/testng-6.8.jar!/.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2014-06-14 21:10:32.022
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at jar:file:/home/bhabuzian/apache-maven-3.2.1/boot/plexus-classworlds-2.5.1.jar!/.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:393)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:636)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:117)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:102)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$2.runModal(PreloadingRepositoryHandler.java:82)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2014-06-14 21:10:32.022
+!MESSAGE No repository found at jar:file:/home/bhabuzian/apache-maven-3.2.1/boot/plexus-classworlds-2.5.1.jar!/.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2014-06-14 21:10:32.022
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at jar:file:/home/bhabuzian/TestNG/testng-6.8.jar!/.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:393)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:636)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:117)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:102)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$2.runModal(PreloadingRepositoryHandler.java:82)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2014-06-14 21:10:32.023
+!MESSAGE No repository found at jar:file:/home/bhabuzian/TestNG/testng-6.8.jar!/.
+
+!ENTRY org.eclipse.equinox.p2.ui 4 1000 2014-06-14 21:10:32.023
+!MESSAGE Some sites could not be found.  See the error log for more detail.
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2014-06-14 21:10:32.023
+!MESSAGE No repository found at http://m2eclipse.sonatype.org/sites/m2e.
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2014-06-14 21:10:32.023
+!MESSAGE No repository found at jar:file:/home/bhabuzian/DavidGhabuzianInstegate/Java/TestNG/testng-6.8/testng-6.8.jar!/.
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2014-06-14 21:10:32.023
+!MESSAGE No repository found at jar:file:/home/bhabuzian/apache-maven-3.2.1/boot/plexus-classworlds-2.5.1.jar!/.
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2014-06-14 21:10:32.024
+!MESSAGE No repository found at jar:file:/home/bhabuzian/TestNG/testng-6.8.jar!/.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2014-06-14 21:13:51.294
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://m2eclipse.sonatype.org/sites/m2e.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:393)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:675)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:117)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:102)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$2.runModal(PreloadingRepositoryHandler.java:82)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2014-06-14 21:13:51.295
+!MESSAGE No repository found at http://m2eclipse.sonatype.org/sites/m2e.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2014-06-14 21:13:51.316
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at jar:file:/home/bhabuzian/DavidGhabuzianInstegate/Java/TestNG/testng-6.8/testng-6.8.jar!/.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:393)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:675)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:117)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:102)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$2.runModal(PreloadingRepositoryHandler.java:82)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2014-06-14 21:13:51.317
+!MESSAGE No repository found at jar:file:/home/bhabuzian/DavidGhabuzianInstegate/Java/TestNG/testng-6.8/testng-6.8.jar!/.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2014-06-14 21:13:51.333
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at jar:file:/home/bhabuzian/apache-maven-3.2.1/boot/plexus-classworlds-2.5.1.jar!/.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:393)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:675)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:117)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:102)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$2.runModal(PreloadingRepositoryHandler.java:82)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2014-06-14 21:13:51.334
+!MESSAGE No repository found at jar:file:/home/bhabuzian/apache-maven-3.2.1/boot/plexus-classworlds-2.5.1.jar!/.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2014-06-14 21:13:51.352
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at jar:file:/home/bhabuzian/TestNG/testng-6.8.jar!/.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:393)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:675)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:117)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:102)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$2.runModal(PreloadingRepositoryHandler.java:82)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2014-06-14 21:13:51.353
+!MESSAGE No repository found at jar:file:/home/bhabuzian/TestNG/testng-6.8.jar!/.
+
+!ENTRY org.eclipse.equinox.p2.ui 4 1000 2014-06-14 21:13:51.354
+!MESSAGE Some sites could not be found.  See the error log for more detail.
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2014-06-14 21:13:51.354
+!MESSAGE No repository found at http://m2eclipse.sonatype.org/sites/m2e.
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2014-06-14 21:13:51.354
+!MESSAGE No repository found at jar:file:/home/bhabuzian/DavidGhabuzianInstegate/Java/TestNG/testng-6.8/testng-6.8.jar!/.
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2014-06-14 21:13:51.354
+!MESSAGE No repository found at jar:file:/home/bhabuzian/apache-maven-3.2.1/boot/plexus-classworlds-2.5.1.jar!/.
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2014-06-14 21:13:51.354
+!MESSAGE No repository found at jar:file:/home/bhabuzian/TestNG/testng-6.8.jar!/.
+
+!ENTRY org.eclipse.core.jobs 4 2 2014-06-14 21:57:10.102
+!MESSAGE An internal error occurred during: "Local Help".
+!STACK 0
+java.lang.IllegalArgumentException: invalid format: 
+	at org.osgi.framework.Version.<init>(Version.java:150)
+	at org.eclipse.help.internal.search.SearchIndex.isLuceneCompatible(SearchIndex.java:721)
+	at org.eclipse.help.internal.search.PluginIndex.isCompatible(PluginIndex.java:152)
+	at org.eclipse.help.internal.search.PluginIndex.resolve(PluginIndex.java:83)
+	at org.eclipse.help.internal.search.PluginIndex.getPaths(PluginIndex.java:231)
+	at org.eclipse.help.internal.search.PrebuiltIndexes.trim(PrebuiltIndexes.java:46)
+	at org.eclipse.help.internal.search.PrebuiltIndexes.getIndexes(PrebuiltIndexes.java:54)
+	at org.eclipse.help.internal.search.IndexingOperation.mergeIndexes(IndexingOperation.java:544)
+	at org.eclipse.help.internal.search.IndexingOperation.addNewDocuments(IndexingOperation.java:152)
+	at org.eclipse.help.internal.search.IndexingOperation.execute(IndexingOperation.java:106)
+	at org.eclipse.help.internal.search.LocalSearchManager.updateIndex(LocalSearchManager.java:671)
+	at org.eclipse.help.internal.search.LocalSearchManager.ensureIndexUpdated(LocalSearchManager.java:645)
+	at org.eclipse.help.internal.search.LocalSearchManager.search(LocalSearchManager.java:590)
+	at org.eclipse.help.internal.search.SearchManager.searchLocal(SearchManager.java:103)
+	at org.eclipse.help.internal.search.SearchManager.search(SearchManager.java:94)
+	at org.eclipse.help.internal.search.federated.LocalHelp.run(LocalHelp.java:81)
+	at org.eclipse.help.internal.search.federated.FederatedSearchJob.run(FederatedSearchJob.java:38)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: java.util.NoSuchElementException
+	at java.util.StringTokenizer.nextToken(StringTokenizer.java:349)
+	at org.osgi.framework.Version.<init>(Version.java:127)
+	... 17 more
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2014-06-14 21:59:10.808
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://m2eclipse.sonatype.org/sites/m2e.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:393)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:675)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:117)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:102)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$2.runModal(PreloadingRepositoryHandler.java:82)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2014-06-14 21:59:10.809
+!MESSAGE No repository found at http://m2eclipse.sonatype.org/sites/m2e.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2014-06-14 21:59:10.832
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at jar:file:/home/bhabuzian/DavidGhabuzianInstegate/Java/TestNG/testng-6.8/testng-6.8.jar!/.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:393)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:675)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:117)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:102)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$2.runModal(PreloadingRepositoryHandler.java:82)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2014-06-14 21:59:10.833
+!MESSAGE No repository found at jar:file:/home/bhabuzian/DavidGhabuzianInstegate/Java/TestNG/testng-6.8/testng-6.8.jar!/.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2014-06-14 21:59:28.799
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at jar:file:/home/bhabuzian/apache-maven-3.2.1/boot/plexus-classworlds-2.5.1.jar!/.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:393)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:675)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:117)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:102)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$2.runModal(PreloadingRepositoryHandler.java:82)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2014-06-14 21:59:28.799
+!MESSAGE No repository found at jar:file:/home/bhabuzian/apache-maven-3.2.1/boot/plexus-classworlds-2.5.1.jar!/.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2014-06-14 21:59:28.809
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at jar:file:/home/bhabuzian/TestNG/testng-6.8.jar!/.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:393)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:675)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:117)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:102)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$2.runModal(PreloadingRepositoryHandler.java:82)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2014-06-14 21:59:28.809
+!MESSAGE No repository found at jar:file:/home/bhabuzian/TestNG/testng-6.8.jar!/.
+
+!ENTRY org.eclipse.equinox.p2.ui 4 1000 2014-06-14 21:59:31.683
+!MESSAGE Some sites could not be found.  See the error log for more detail.
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2014-06-14 21:59:31.683
+!MESSAGE No repository found at http://m2eclipse.sonatype.org/sites/m2e.
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2014-06-14 21:59:31.683
+!MESSAGE No repository found at jar:file:/home/bhabuzian/DavidGhabuzianInstegate/Java/TestNG/testng-6.8/testng-6.8.jar!/.
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2014-06-14 21:59:31.683
+!MESSAGE No repository found at jar:file:/home/bhabuzian/apache-maven-3.2.1/boot/plexus-classworlds-2.5.1.jar!/.
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2014-06-14 21:59:31.683
+!MESSAGE No repository found at jar:file:/home/bhabuzian/TestNG/testng-6.8.jar!/.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2014-06-14 21:59:57.990
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://m2eclipse.sonatype.org/sites/m2e.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:393)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:636)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:117)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:102)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$2.runModal(PreloadingRepositoryHandler.java:82)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2014-06-14 21:59:57.990
+!MESSAGE No repository found at http://m2eclipse.sonatype.org/sites/m2e.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2014-06-14 21:59:57.991
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at jar:file:/home/bhabuzian/DavidGhabuzianInstegate/Java/TestNG/testng-6.8/testng-6.8.jar!/.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:393)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:636)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:117)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:102)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$2.runModal(PreloadingRepositoryHandler.java:82)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2014-06-14 21:59:57.991
+!MESSAGE No repository found at jar:file:/home/bhabuzian/DavidGhabuzianInstegate/Java/TestNG/testng-6.8/testng-6.8.jar!/.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2014-06-14 21:59:57.992
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at jar:file:/home/bhabuzian/apache-maven-3.2.1/boot/plexus-classworlds-2.5.1.jar!/.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:393)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:636)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:117)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:102)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$2.runModal(PreloadingRepositoryHandler.java:82)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2014-06-14 21:59:57.993
+!MESSAGE No repository found at jar:file:/home/bhabuzian/apache-maven-3.2.1/boot/plexus-classworlds-2.5.1.jar!/.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2014-06-14 21:59:57.993
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at jar:file:/home/bhabuzian/TestNG/testng-6.8.jar!/.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:393)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:636)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:117)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:102)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$2.runModal(PreloadingRepositoryHandler.java:82)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2014-06-14 21:59:57.994
+!MESSAGE No repository found at jar:file:/home/bhabuzian/TestNG/testng-6.8.jar!/.
+
+!ENTRY org.eclipse.equinox.p2.ui 4 1000 2014-06-14 21:59:59.770
+!MESSAGE Some sites could not be found.  See the error log for more detail.
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2014-06-14 21:59:59.771
+!MESSAGE No repository found at http://m2eclipse.sonatype.org/sites/m2e.
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2014-06-14 21:59:59.771
+!MESSAGE No repository found at jar:file:/home/bhabuzian/DavidGhabuzianInstegate/Java/TestNG/testng-6.8/testng-6.8.jar!/.
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2014-06-14 21:59:59.771
+!MESSAGE No repository found at jar:file:/home/bhabuzian/apache-maven-3.2.1/boot/plexus-classworlds-2.5.1.jar!/.
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2014-06-14 21:59:59.771
+!MESSAGE No repository found at jar:file:/home/bhabuzian/TestNG/testng-6.8.jar!/.
