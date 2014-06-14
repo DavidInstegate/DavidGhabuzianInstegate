@@ -5,10 +5,10 @@ java.vendor=Sun Microsystems Inc.
 BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
 Command-line arguments:  -os linux -ws gtk -arch x86
 
-This is a continuation of log file /home/bhabuzian/DavidGhabuzianInstegate/Java/Eclips/.metadata/.bak_3.log
-Created Time: 2014-06-14 18:49:04.216
+This is a continuation of log file /home/bhabuzian/DavidGhabuzianInstegate/Java/Eclips/.metadata/.bak_6.log
+Created Time: 2014-06-14 19:47:53.638
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:49:04.216
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:47:53.638
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -34,7 +34,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:49:06.297
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:47:55.697
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -60,7 +60,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:49:08.352
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:47:57.764
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -86,7 +86,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:49:10.423
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:47:59.844
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -112,7 +112,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:49:12.490
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:48:01.913
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -138,7 +138,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:49:14.578
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:48:03.983
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -164,7 +164,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:49:16.631
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:48:06.066
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -190,7 +190,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:49:18.700
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:48:08.123
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -216,7 +216,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:49:20.770
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:48:10.192
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -242,7 +242,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:49:22.839
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:48:12.262
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -268,7 +268,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:49:24.913
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:48:14.351
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -294,7 +294,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:49:26.972
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:48:16.402
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -320,7 +320,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:49:29.040
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:48:18.480
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -346,7 +346,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:49:31.111
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:48:20.553
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -372,7 +372,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:49:33.193
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:48:22.622
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -398,7 +398,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:49:35.249
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:48:24.704
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -424,7 +424,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:49:37.318
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:48:26.762
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -450,7 +450,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:49:39.387
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:48:28.839
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -476,7 +476,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:49:41.475
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:48:30.907
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -502,7 +502,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:49:43.537
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:48:32.966
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -528,7 +528,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:49:45.604
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:48:35.016
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -554,7 +554,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:49:47.673
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:48:37.146
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -580,7 +580,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:49:49.742
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:48:39.248
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -606,7 +606,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:49:51.826
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:48:41.280
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -632,7 +632,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:49:53.881
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:48:43.359
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -658,7 +658,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:49:55.946
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:48:45.432
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -684,7 +684,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:49:58.015
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:48:47.501
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -710,7 +710,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:50:00.081
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:48:49.571
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -736,7 +736,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:50:02.156
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:48:51.625
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -762,7 +762,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:50:04.224
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:48:53.702
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -788,7 +788,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:50:06.304
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:48:55.779
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -814,7 +814,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:50:08.360
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:48:57.876
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -840,7 +840,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:50:10.442
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:48:59.921
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -866,7 +866,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:50:12.509
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:49:01.991
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -892,7 +892,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:50:14.589
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:49:04.115
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -918,7 +918,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:50:16.642
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:49:06.237
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -944,7 +944,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:50:18.711
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:49:08.267
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -970,7 +970,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:50:20.782
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:49:10.423
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -996,7 +996,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:50:22.850
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:49:12.489
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -1022,7 +1022,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:50:24.906
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:49:14.611
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -1048,7 +1048,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:50:26.980
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:49:16.706
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -1074,7 +1074,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:50:29.051
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:49:18.759
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -1100,7 +1100,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:50:31.120
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:49:20.837
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -1126,7 +1126,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:50:33.222
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:49:22.970
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -1152,7 +1152,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:50:35.264
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:49:25.030
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -1178,7 +1178,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:50:37.348
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:49:27.103
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -1204,7 +1204,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:50:39.410
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:49:29.202
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -1230,7 +1230,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:50:41.478
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:49:31.271
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -1256,7 +1256,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:50:43.542
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:49:33.388
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -1282,7 +1282,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:50:45.612
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:49:35.450
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -1308,7 +1308,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:50:47.682
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:49:37.530
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -1334,7 +1334,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:50:49.751
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:49:39.615
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -1360,7 +1360,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:50:51.832
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:49:41.735
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -1386,7 +1386,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:50:53.883
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:49:43.767
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -1412,7 +1412,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:50:55.958
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:49:45.877
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -1438,7 +1438,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:50:58.027
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:49:47.958
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -1464,7 +1464,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:51:00.095
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:49:50.028
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -1490,7 +1490,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:51:02.167
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:49:52.111
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -1516,7 +1516,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:51:04.239
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:49:54.182
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -1542,7 +1542,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:51:06.317
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:49:56.225
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -1568,7 +1568,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:51:08.355
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:49:58.345
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -1594,7 +1594,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:51:10.437
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:50:00.396
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -1620,7 +1620,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:51:12.504
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:50:02.500
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -1646,7 +1646,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:51:14.591
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:50:04.589
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -1672,7 +1672,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:51:16.644
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:50:06.663
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -1698,7 +1698,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:51:18.717
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:50:08.729
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -1724,7 +1724,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:51:20.788
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:50:10.834
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -1750,7 +1750,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:51:22.856
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:50:12.909
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -1776,7 +1776,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:51:24.937
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:50:15.014
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -1802,7 +1802,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:51:26.997
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:50:17.085
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -1828,7 +1828,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:51:29.065
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:50:19.195
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -1854,7 +1854,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:51:31.135
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:50:21.273
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -1880,7 +1880,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:51:33.220
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:50:23.390
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -1906,7 +1906,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:51:35.277
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:50:25.466
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -1932,7 +1932,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:51:37.349
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:50:27.529
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -1958,7 +1958,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:51:39.409
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:50:29.616
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -1984,7 +1984,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:51:41.495
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:50:31.706
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -2010,7 +2010,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:51:43.550
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:50:33.807
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -2036,7 +2036,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:51:45.619
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:50:35.879
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -2062,7 +2062,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:51:47.667
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:50:37.995
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -2088,7 +2088,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:51:49.727
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:50:40.045
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -2114,7 +2114,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:51:51.802
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:50:42.161
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -2140,7 +2140,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:51:53.874
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:50:44.228
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -2166,7 +2166,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:51:55.944
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:50:46.282
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -2192,7 +2192,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:51:58.006
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:50:48.346
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -2218,7 +2218,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:52:00.077
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:50:50.442
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -2244,7 +2244,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:52:02.149
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:50:52.530
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -2270,7 +2270,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:52:04.216
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:50:54.620
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -2296,7 +2296,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:52:06.298
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:50:57.008
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -2322,7 +2322,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:52:08.355
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:50:59.096
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -2348,7 +2348,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:52:10.424
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:51:01.185
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -2374,7 +2374,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:52:12.493
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:51:03.250
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -2400,7 +2400,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:52:14.554
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:51:05.364
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -2426,7 +2426,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:52:16.625
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:51:07.427
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -2452,7 +2452,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:52:18.696
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:51:09.530
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -2478,7 +2478,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:52:20.765
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:51:11.564
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -2504,7 +2504,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:52:22.828
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:51:13.678
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -2530,7 +2530,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:52:24.910
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:51:15.714
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -2556,7 +2556,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:52:26.970
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:51:17.838
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -2582,7 +2582,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:52:29.037
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:51:19.904
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -2608,7 +2608,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:52:31.107
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:51:21.969
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -2634,7 +2634,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:52:33.190
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:51:24.049
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -2660,7 +2660,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:52:35.245
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:51:26.174
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -2686,7 +2686,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:52:37.315
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:51:28.202
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -2712,7 +2712,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:52:39.387
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:51:30.274
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -2738,7 +2738,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:52:41.475
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:51:32.397
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -2764,7 +2764,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:52:43.531
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:51:34.482
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -2790,7 +2790,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:52:45.600
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:51:36.590
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -2816,7 +2816,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:52:47.676
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:51:38.666
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -2842,7 +2842,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:52:49.739
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:51:40.766
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -2868,7 +2868,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:52:51.824
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:51:42.792
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -2894,7 +2894,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:52:53.881
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:51:44.870
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -2920,7 +2920,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:52:55.948
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:51:46.971
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -2946,7 +2946,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:52:58.019
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:51:49.038
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -2972,7 +2972,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:53:00.090
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:51:51.152
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -2998,7 +2998,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:53:02.161
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:51:53.219
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -3024,7 +3024,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:53:04.230
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:51:55.313
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -3050,7 +3050,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:53:06.320
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:51:57.388
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -3076,7 +3076,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:53:08.373
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:51:59.466
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -3102,7 +3102,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:53:10.441
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:52:01.548
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -3128,7 +3128,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:53:12.510
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:52:03.625
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -3154,7 +3154,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:53:14.596
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:52:05.722
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -3180,7 +3180,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:53:16.630
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:52:07.813
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -3206,7 +3206,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:53:18.699
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:52:09.853
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -3232,7 +3232,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:53:20.753
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:52:11.943
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -3258,7 +3258,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:53:22.835
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:52:14.016
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -3284,7 +3284,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:53:24.916
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:52:16.096
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -3310,7 +3310,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:53:26.974
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:52:18.229
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -3336,7 +3336,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:53:29.025
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:52:20.241
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -3362,7 +3362,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:53:31.106
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:52:22.311
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -3388,7 +3388,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:53:33.191
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:52:24.412
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -3414,7 +3414,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:53:35.245
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:52:26.443
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -3440,7 +3440,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:53:37.315
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:52:28.520
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -3466,7 +3466,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:53:39.385
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:52:30.727
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -3492,7 +3492,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:53:41.452
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:52:32.795
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -3518,7 +3518,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:53:43.522
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:52:34.874
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -3544,7 +3544,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:53:45.591
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:52:36.940
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -3570,7 +3570,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:53:47.661
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:52:40.879
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -3596,7 +3596,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:53:49.730
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:52:42.962
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -3622,7 +3622,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:53:51.806
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:52:45.034
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -3648,7 +3648,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:53:53.863
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:52:47.152
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -3674,7 +3674,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:53:55.932
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:52:49.730
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -3700,7 +3700,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:53:58.002
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:52:51.858
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -3726,7 +3726,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:54:00.072
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:52:53.927
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -3752,7 +3752,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:54:02.141
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:52:55.994
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -3778,7 +3778,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:54:04.210
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:52:58.102
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -3804,7 +3804,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:54:06.293
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:53:00.151
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -3830,7 +3830,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:54:08.349
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:53:02.271
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -3856,7 +3856,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:54:10.419
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:53:04.308
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -3882,7 +3882,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:54:12.490
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:53:06.396
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -3908,7 +3908,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:54:14.575
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:53:08.471
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -3934,7 +3934,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:54:16.632
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:53:10.568
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -3960,7 +3960,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:54:18.701
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:53:12.722
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -3986,7 +3986,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:54:20.770
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:53:14.759
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -4012,7 +4012,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:54:22.845
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:53:16.830
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -4038,7 +4038,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:54:24.919
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:53:18.877
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -4064,7 +4064,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:54:26.976
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:53:20.962
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -4090,7 +4090,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:54:29.045
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:53:23.034
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -4116,7 +4116,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:54:31.116
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:53:25.101
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -4142,7 +4142,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:54:33.199
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:53:27.150
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -4168,7 +4168,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:54:35.254
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:53:29.648
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -4194,7 +4194,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:54:37.324
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:53:31.732
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -4220,7 +4220,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:54:39.396
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:53:33.810
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -4246,7 +4246,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:54:41.480
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:53:35.874
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -4272,7 +4272,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:54:43.535
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:53:37.921
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -4298,7 +4298,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:54:45.606
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:53:40.012
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -4324,7 +4324,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:54:47.676
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:53:42.054
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -4350,7 +4350,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:54:49.745
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:53:44.196
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -4376,7 +4376,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:54:51.829
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:53:46.242
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -4402,7 +4402,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:54:53.885
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:53:48.314
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -4428,7 +4428,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:54:55.951
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:53:50.382
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -4454,7 +4454,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:54:58.022
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:53:52.427
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -4480,7 +4480,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:55:00.090
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:53:54.520
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -4506,7 +4506,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:55:02.163
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:53:56.589
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -4532,7 +4532,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:55:04.220
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:53:58.659
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -4558,7 +4558,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:55:06.305
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:54:00.734
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -4584,7 +4584,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:55:08.360
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:54:02.809
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -4610,7 +4610,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:55:10.430
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:54:04.875
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -4636,7 +4636,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:55:12.501
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:54:06.951
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -4662,7 +4662,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:55:14.578
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:54:09.025
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -4688,7 +4688,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:55:16.632
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:54:11.085
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -4714,7 +4714,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:55:18.700
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:54:13.160
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -4740,7 +4740,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:55:20.770
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:54:15.246
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -4766,7 +4766,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:55:22.839
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:54:17.298
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -4792,7 +4792,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:55:24.919
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:54:19.367
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -4818,7 +4818,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:55:26.979
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:54:21.418
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -4844,7 +4844,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:55:29.046
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:54:23.501
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -4870,7 +4870,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:55:31.117
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:54:25.571
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -4896,7 +4896,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:55:33.201
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:54:27.639
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -4922,7 +4922,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:55:35.256
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:54:29.708
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -4948,7 +4948,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:55:37.324
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:54:31.785
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -4974,7 +4974,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:55:39.394
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:54:33.863
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -5000,7 +5000,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:55:41.481
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:54:35.909
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -5026,7 +5026,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:55:43.537
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:54:37.995
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -5052,7 +5052,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:55:45.605
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:54:40.059
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -5078,7 +5078,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:55:47.675
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:54:42.126
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -5104,7 +5104,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:55:49.745
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:54:44.196
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -5130,7 +5130,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:55:51.854
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:54:46.266
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -5156,7 +5156,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:55:53.891
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:54:48.335
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -5182,7 +5182,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:55:55.959
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:54:50.405
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -5208,7 +5208,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:55:58.026
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:54:52.480
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -5234,7 +5234,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:56:00.092
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:54:54.549
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -5260,7 +5260,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:56:02.161
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:54:56.618
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -5286,7 +5286,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:56:04.235
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:54:58.689
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -5312,7 +5312,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:56:06.313
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:55:00.761
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -5338,7 +5338,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:56:08.370
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:55:02.832
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -5364,7 +5364,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:56:10.442
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:55:04.902
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -5390,7 +5390,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:56:12.552
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:55:06.944
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -5416,7 +5416,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:56:14.633
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:55:09.026
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -5442,7 +5442,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:56:16.685
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:55:11.097
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -5468,7 +5468,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:56:18.751
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:55:13.166
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -5494,7 +5494,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:56:20.825
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:55:15.259
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -5520,7 +5520,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:56:22.894
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:55:17.313
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -5546,7 +5546,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:56:24.977
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:55:19.382
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -5572,7 +5572,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:56:27.037
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:55:21.452
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -5598,7 +5598,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:56:29.107
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:55:23.505
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -5624,7 +5624,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:56:31.176
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:55:25.583
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -5650,7 +5650,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:56:33.273
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:55:27.653
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -5676,7 +5676,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:56:35.325
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:55:29.729
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -5702,7 +5702,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:56:37.397
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:55:31.794
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -5728,7 +5728,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:56:39.457
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:55:33.870
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -5754,7 +5754,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:56:41.547
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:55:35.940
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -5780,7 +5780,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:56:43.619
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:55:38.025
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -5806,7 +5806,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:56:45.684
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:55:40.113
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -5832,7 +5832,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:56:47.753
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:55:42.161
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -5858,7 +5858,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:56:49.826
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:55:44.221
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -5884,7 +5884,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:56:51.906
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:55:46.296
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -5910,7 +5910,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:56:53.964
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:55:48.364
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -5936,7 +5936,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:56:56.033
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:55:50.435
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -5962,7 +5962,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:56:58.078
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:55:52.783
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -5988,7 +5988,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:57:00.156
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:55:54.859
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -6014,7 +6014,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:57:02.224
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:55:56.929
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -6040,7 +6040,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:57:04.293
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:55:58.998
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -6066,7 +6066,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:57:06.377
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:56:01.060
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -6092,7 +6092,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:57:08.433
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:56:03.129
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -6118,7 +6118,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:57:10.503
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:56:05.201
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -6144,7 +6144,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:57:12.570
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:56:07.269
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -6170,7 +6170,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:57:14.657
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:56:09.339
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -6196,7 +6196,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:57:16.711
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:56:11.409
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -6222,7 +6222,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:57:18.774
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:56:13.484
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -6248,7 +6248,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:57:20.843
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:56:15.630
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -6274,7 +6274,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:57:22.914
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:56:17.735
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -6300,7 +6300,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:57:24.993
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:56:19.784
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -6326,7 +6326,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:57:27.052
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:56:21.852
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -6352,7 +6352,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:57:29.122
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:56:23.922
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -6378,7 +6378,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:57:31.191
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:56:25.968
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -6404,7 +6404,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:57:33.275
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:56:28.053
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -6430,7 +6430,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:57:35.330
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:56:30.122
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -6456,7 +6456,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:57:37.402
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:56:32.192
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -6482,7 +6482,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:57:39.469
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:56:34.261
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -6508,7 +6508,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:57:41.555
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:56:36.333
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -6534,7 +6534,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:57:43.597
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:56:38.401
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -6560,7 +6560,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:57:45.671
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:56:40.469
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -6586,7 +6586,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:57:47.744
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:56:42.539
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -6612,7 +6612,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:57:49.814
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:56:44.629
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -6638,7 +6638,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:57:51.894
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:56:46.680
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -6664,7 +6664,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:57:53.950
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:56:48.768
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -6690,7 +6690,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:57:56.021
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:56:50.806
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -6716,7 +6716,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:57:58.092
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:56:52.928
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -6742,7 +6742,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:58:00.160
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:56:54.975
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -6768,7 +6768,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:58:02.229
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:56:57.066
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -6794,7 +6794,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:58:04.299
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:56:59.134
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -6820,7 +6820,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:58:06.381
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:57:01.209
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -6846,7 +6846,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:58:08.437
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:57:03.278
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -6872,7 +6872,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:58:10.517
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:57:05.350
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -6898,7 +6898,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:58:12.588
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:57:07.421
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -6924,7 +6924,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:58:14.672
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:57:09.489
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -6950,7 +6950,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:58:16.727
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:57:11.558
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -6976,7 +6976,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:58:18.796
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:57:13.624
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -7002,7 +7002,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:58:20.865
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:57:15.697
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -7028,7 +7028,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:58:22.935
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:57:17.779
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -7054,7 +7054,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:58:25.015
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:57:19.838
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -7080,7 +7080,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:58:27.073
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:57:21.890
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -7106,7 +7106,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:58:29.143
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:57:23.973
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -7132,7 +7132,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:58:31.205
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:57:26.039
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -7158,7 +7158,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:58:33.296
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:57:28.110
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -7184,7 +7184,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:58:35.351
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:57:30.171
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -7210,7 +7210,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:58:37.421
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:57:32.242
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -7236,7 +7236,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:58:39.493
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:57:34.311
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -7262,7 +7262,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:58:41.558
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:57:36.374
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -7288,7 +7288,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:58:43.628
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:57:38.443
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -7314,7 +7314,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:58:45.701
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:57:40.513
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -7340,7 +7340,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:58:47.774
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:57:42.599
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -7366,7 +7366,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:58:49.843
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:57:44.653
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -7392,7 +7392,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:58:51.925
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:57:46.697
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -7418,7 +7418,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:58:53.983
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:57:48.785
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -7444,7 +7444,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:58:56.054
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:57:50.853
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -7470,7 +7470,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:58:58.115
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:57:52.924
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -7496,7 +7496,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:59:00.187
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:57:54.992
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -7522,7 +7522,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:59:02.286
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:57:57.062
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -7548,7 +7548,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:59:04.308
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:57:59.132
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -7574,7 +7574,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:59:06.406
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:58:01.195
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -7600,7 +7600,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:59:08.462
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:58:03.264
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -7626,7 +7626,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:59:10.535
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:58:05.337
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -7652,7 +7652,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:59:12.612
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:58:07.395
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -7678,7 +7678,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:59:14.706
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:58:09.467
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -7704,7 +7704,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:59:16.762
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:58:11.539
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -7730,7 +7730,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:59:18.840
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:58:13.607
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -7756,7 +7756,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:59:20.910
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:58:15.677
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -7782,7 +7782,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:59:22.979
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:58:17.762
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -7808,7 +7808,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:59:25.059
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:58:19.796
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -7834,7 +7834,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:59:27.117
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:58:21.880
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -7860,7 +7860,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:59:29.187
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:58:23.933
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -7886,7 +7886,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:59:31.257
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:58:26.011
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -7912,7 +7912,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:59:33.340
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:58:28.079
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -7938,7 +7938,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:59:35.397
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:58:30.150
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -7964,7 +7964,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:59:37.465
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:58:32.216
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -7990,7 +7990,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:59:39.531
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:58:34.282
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -8016,7 +8016,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:59:41.616
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:58:36.352
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -8042,7 +8042,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:59:43.677
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:58:38.420
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -8068,7 +8068,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:59:45.753
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:58:40.490
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -8094,7 +8094,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:59:47.807
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:58:42.576
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -8120,7 +8120,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:59:49.891
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:58:44.632
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -8146,7 +8146,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:59:52.035
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:58:46.700
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -8172,7 +8172,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:59:54.062
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:58:48.770
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -8198,7 +8198,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:59:56.437
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:58:50.839
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -8224,7 +8224,7 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 18:59:58.484
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:58:52.910
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 
@@ -8250,7 +8250,865 @@ Caused by: java.util.NoSuchElementException
 	at org.osgi.framework.Version.<init>(Version.java:127)
 	... 16 more
 
-!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:00:00.592
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:58:54.979
+!MESSAGE Problem occurred during indexing of documentation.
+!STACK 0
+java.lang.IllegalArgumentException: invalid format: 
+	at org.osgi.framework.Version.<init>(Version.java:150)
+	at org.eclipse.help.internal.search.SearchIndex.isLuceneCompatible(SearchIndex.java:721)
+	at org.eclipse.help.internal.search.PluginIndex.isCompatible(PluginIndex.java:152)
+	at org.eclipse.help.internal.search.PluginIndex.resolve(PluginIndex.java:83)
+	at org.eclipse.help.internal.search.PluginIndex.getPaths(PluginIndex.java:231)
+	at org.eclipse.help.internal.search.PrebuiltIndexes.trim(PrebuiltIndexes.java:46)
+	at org.eclipse.help.internal.search.PrebuiltIndexes.getIndexes(PrebuiltIndexes.java:54)
+	at org.eclipse.help.internal.search.IndexingOperation.mergeIndexes(IndexingOperation.java:544)
+	at org.eclipse.help.internal.search.IndexingOperation.addNewDocuments(IndexingOperation.java:152)
+	at org.eclipse.help.internal.search.IndexingOperation.execute(IndexingOperation.java:106)
+	at org.eclipse.help.internal.search.LocalSearchManager.updateIndex(LocalSearchManager.java:671)
+	at org.eclipse.help.internal.search.LocalSearchManager.ensureIndexUpdated(LocalSearchManager.java:645)
+	at org.eclipse.help.internal.search.LocalSearchManager.search(LocalSearchManager.java:590)
+	at org.eclipse.help.internal.search.SearchManager.searchLocal(SearchManager.java:103)
+	at org.eclipse.help.internal.search.SearchManager.search(SearchManager.java:94)
+	at org.eclipse.help.internal.search.SearchProgressMonitor$2.run(SearchProgressMonitor.java:162)
+	at java.lang.Thread.run(Thread.java:701)
+Caused by: java.util.NoSuchElementException
+	at java.util.StringTokenizer.nextToken(StringTokenizer.java:349)
+	at org.osgi.framework.Version.<init>(Version.java:127)
+	... 16 more
+
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:58:57.048
+!MESSAGE Problem occurred during indexing of documentation.
+!STACK 0
+java.lang.IllegalArgumentException: invalid format: 
+	at org.osgi.framework.Version.<init>(Version.java:150)
+	at org.eclipse.help.internal.search.SearchIndex.isLuceneCompatible(SearchIndex.java:721)
+	at org.eclipse.help.internal.search.PluginIndex.isCompatible(PluginIndex.java:152)
+	at org.eclipse.help.internal.search.PluginIndex.resolve(PluginIndex.java:83)
+	at org.eclipse.help.internal.search.PluginIndex.getPaths(PluginIndex.java:231)
+	at org.eclipse.help.internal.search.PrebuiltIndexes.trim(PrebuiltIndexes.java:46)
+	at org.eclipse.help.internal.search.PrebuiltIndexes.getIndexes(PrebuiltIndexes.java:54)
+	at org.eclipse.help.internal.search.IndexingOperation.mergeIndexes(IndexingOperation.java:544)
+	at org.eclipse.help.internal.search.IndexingOperation.addNewDocuments(IndexingOperation.java:152)
+	at org.eclipse.help.internal.search.IndexingOperation.execute(IndexingOperation.java:106)
+	at org.eclipse.help.internal.search.LocalSearchManager.updateIndex(LocalSearchManager.java:671)
+	at org.eclipse.help.internal.search.LocalSearchManager.ensureIndexUpdated(LocalSearchManager.java:645)
+	at org.eclipse.help.internal.search.LocalSearchManager.search(LocalSearchManager.java:590)
+	at org.eclipse.help.internal.search.SearchManager.searchLocal(SearchManager.java:103)
+	at org.eclipse.help.internal.search.SearchManager.search(SearchManager.java:94)
+	at org.eclipse.help.internal.search.SearchProgressMonitor$2.run(SearchProgressMonitor.java:162)
+	at java.lang.Thread.run(Thread.java:701)
+Caused by: java.util.NoSuchElementException
+	at java.util.StringTokenizer.nextToken(StringTokenizer.java:349)
+	at org.osgi.framework.Version.<init>(Version.java:127)
+	... 16 more
+
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:58:59.117
+!MESSAGE Problem occurred during indexing of documentation.
+!STACK 0
+java.lang.IllegalArgumentException: invalid format: 
+	at org.osgi.framework.Version.<init>(Version.java:150)
+	at org.eclipse.help.internal.search.SearchIndex.isLuceneCompatible(SearchIndex.java:721)
+	at org.eclipse.help.internal.search.PluginIndex.isCompatible(PluginIndex.java:152)
+	at org.eclipse.help.internal.search.PluginIndex.resolve(PluginIndex.java:83)
+	at org.eclipse.help.internal.search.PluginIndex.getPaths(PluginIndex.java:231)
+	at org.eclipse.help.internal.search.PrebuiltIndexes.trim(PrebuiltIndexes.java:46)
+	at org.eclipse.help.internal.search.PrebuiltIndexes.getIndexes(PrebuiltIndexes.java:54)
+	at org.eclipse.help.internal.search.IndexingOperation.mergeIndexes(IndexingOperation.java:544)
+	at org.eclipse.help.internal.search.IndexingOperation.addNewDocuments(IndexingOperation.java:152)
+	at org.eclipse.help.internal.search.IndexingOperation.execute(IndexingOperation.java:106)
+	at org.eclipse.help.internal.search.LocalSearchManager.updateIndex(LocalSearchManager.java:671)
+	at org.eclipse.help.internal.search.LocalSearchManager.ensureIndexUpdated(LocalSearchManager.java:645)
+	at org.eclipse.help.internal.search.LocalSearchManager.search(LocalSearchManager.java:590)
+	at org.eclipse.help.internal.search.SearchManager.searchLocal(SearchManager.java:103)
+	at org.eclipse.help.internal.search.SearchManager.search(SearchManager.java:94)
+	at org.eclipse.help.internal.search.SearchProgressMonitor$2.run(SearchProgressMonitor.java:162)
+	at java.lang.Thread.run(Thread.java:701)
+Caused by: java.util.NoSuchElementException
+	at java.util.StringTokenizer.nextToken(StringTokenizer.java:349)
+	at org.osgi.framework.Version.<init>(Version.java:127)
+	... 16 more
+
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:59:01.187
+!MESSAGE Problem occurred during indexing of documentation.
+!STACK 0
+java.lang.IllegalArgumentException: invalid format: 
+	at org.osgi.framework.Version.<init>(Version.java:150)
+	at org.eclipse.help.internal.search.SearchIndex.isLuceneCompatible(SearchIndex.java:721)
+	at org.eclipse.help.internal.search.PluginIndex.isCompatible(PluginIndex.java:152)
+	at org.eclipse.help.internal.search.PluginIndex.resolve(PluginIndex.java:83)
+	at org.eclipse.help.internal.search.PluginIndex.getPaths(PluginIndex.java:231)
+	at org.eclipse.help.internal.search.PrebuiltIndexes.trim(PrebuiltIndexes.java:46)
+	at org.eclipse.help.internal.search.PrebuiltIndexes.getIndexes(PrebuiltIndexes.java:54)
+	at org.eclipse.help.internal.search.IndexingOperation.mergeIndexes(IndexingOperation.java:544)
+	at org.eclipse.help.internal.search.IndexingOperation.addNewDocuments(IndexingOperation.java:152)
+	at org.eclipse.help.internal.search.IndexingOperation.execute(IndexingOperation.java:106)
+	at org.eclipse.help.internal.search.LocalSearchManager.updateIndex(LocalSearchManager.java:671)
+	at org.eclipse.help.internal.search.LocalSearchManager.ensureIndexUpdated(LocalSearchManager.java:645)
+	at org.eclipse.help.internal.search.LocalSearchManager.search(LocalSearchManager.java:590)
+	at org.eclipse.help.internal.search.SearchManager.searchLocal(SearchManager.java:103)
+	at org.eclipse.help.internal.search.SearchManager.search(SearchManager.java:94)
+	at org.eclipse.help.internal.search.SearchProgressMonitor$2.run(SearchProgressMonitor.java:162)
+	at java.lang.Thread.run(Thread.java:701)
+Caused by: java.util.NoSuchElementException
+	at java.util.StringTokenizer.nextToken(StringTokenizer.java:349)
+	at org.osgi.framework.Version.<init>(Version.java:127)
+	... 16 more
+
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:59:03.256
+!MESSAGE Problem occurred during indexing of documentation.
+!STACK 0
+java.lang.IllegalArgumentException: invalid format: 
+	at org.osgi.framework.Version.<init>(Version.java:150)
+	at org.eclipse.help.internal.search.SearchIndex.isLuceneCompatible(SearchIndex.java:721)
+	at org.eclipse.help.internal.search.PluginIndex.isCompatible(PluginIndex.java:152)
+	at org.eclipse.help.internal.search.PluginIndex.resolve(PluginIndex.java:83)
+	at org.eclipse.help.internal.search.PluginIndex.getPaths(PluginIndex.java:231)
+	at org.eclipse.help.internal.search.PrebuiltIndexes.trim(PrebuiltIndexes.java:46)
+	at org.eclipse.help.internal.search.PrebuiltIndexes.getIndexes(PrebuiltIndexes.java:54)
+	at org.eclipse.help.internal.search.IndexingOperation.mergeIndexes(IndexingOperation.java:544)
+	at org.eclipse.help.internal.search.IndexingOperation.addNewDocuments(IndexingOperation.java:152)
+	at org.eclipse.help.internal.search.IndexingOperation.execute(IndexingOperation.java:106)
+	at org.eclipse.help.internal.search.LocalSearchManager.updateIndex(LocalSearchManager.java:671)
+	at org.eclipse.help.internal.search.LocalSearchManager.ensureIndexUpdated(LocalSearchManager.java:645)
+	at org.eclipse.help.internal.search.LocalSearchManager.search(LocalSearchManager.java:590)
+	at org.eclipse.help.internal.search.SearchManager.searchLocal(SearchManager.java:103)
+	at org.eclipse.help.internal.search.SearchManager.search(SearchManager.java:94)
+	at org.eclipse.help.internal.search.SearchProgressMonitor$2.run(SearchProgressMonitor.java:162)
+	at java.lang.Thread.run(Thread.java:701)
+Caused by: java.util.NoSuchElementException
+	at java.util.StringTokenizer.nextToken(StringTokenizer.java:349)
+	at org.osgi.framework.Version.<init>(Version.java:127)
+	... 16 more
+
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:59:05.326
+!MESSAGE Problem occurred during indexing of documentation.
+!STACK 0
+java.lang.IllegalArgumentException: invalid format: 
+	at org.osgi.framework.Version.<init>(Version.java:150)
+	at org.eclipse.help.internal.search.SearchIndex.isLuceneCompatible(SearchIndex.java:721)
+	at org.eclipse.help.internal.search.PluginIndex.isCompatible(PluginIndex.java:152)
+	at org.eclipse.help.internal.search.PluginIndex.resolve(PluginIndex.java:83)
+	at org.eclipse.help.internal.search.PluginIndex.getPaths(PluginIndex.java:231)
+	at org.eclipse.help.internal.search.PrebuiltIndexes.trim(PrebuiltIndexes.java:46)
+	at org.eclipse.help.internal.search.PrebuiltIndexes.getIndexes(PrebuiltIndexes.java:54)
+	at org.eclipse.help.internal.search.IndexingOperation.mergeIndexes(IndexingOperation.java:544)
+	at org.eclipse.help.internal.search.IndexingOperation.addNewDocuments(IndexingOperation.java:152)
+	at org.eclipse.help.internal.search.IndexingOperation.execute(IndexingOperation.java:106)
+	at org.eclipse.help.internal.search.LocalSearchManager.updateIndex(LocalSearchManager.java:671)
+	at org.eclipse.help.internal.search.LocalSearchManager.ensureIndexUpdated(LocalSearchManager.java:645)
+	at org.eclipse.help.internal.search.LocalSearchManager.search(LocalSearchManager.java:590)
+	at org.eclipse.help.internal.search.SearchManager.searchLocal(SearchManager.java:103)
+	at org.eclipse.help.internal.search.SearchManager.search(SearchManager.java:94)
+	at org.eclipse.help.internal.search.SearchProgressMonitor$2.run(SearchProgressMonitor.java:162)
+	at java.lang.Thread.run(Thread.java:701)
+Caused by: java.util.NoSuchElementException
+	at java.util.StringTokenizer.nextToken(StringTokenizer.java:349)
+	at org.osgi.framework.Version.<init>(Version.java:127)
+	... 16 more
+
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:59:07.395
+!MESSAGE Problem occurred during indexing of documentation.
+!STACK 0
+java.lang.IllegalArgumentException: invalid format: 
+	at org.osgi.framework.Version.<init>(Version.java:150)
+	at org.eclipse.help.internal.search.SearchIndex.isLuceneCompatible(SearchIndex.java:721)
+	at org.eclipse.help.internal.search.PluginIndex.isCompatible(PluginIndex.java:152)
+	at org.eclipse.help.internal.search.PluginIndex.resolve(PluginIndex.java:83)
+	at org.eclipse.help.internal.search.PluginIndex.getPaths(PluginIndex.java:231)
+	at org.eclipse.help.internal.search.PrebuiltIndexes.trim(PrebuiltIndexes.java:46)
+	at org.eclipse.help.internal.search.PrebuiltIndexes.getIndexes(PrebuiltIndexes.java:54)
+	at org.eclipse.help.internal.search.IndexingOperation.mergeIndexes(IndexingOperation.java:544)
+	at org.eclipse.help.internal.search.IndexingOperation.addNewDocuments(IndexingOperation.java:152)
+	at org.eclipse.help.internal.search.IndexingOperation.execute(IndexingOperation.java:106)
+	at org.eclipse.help.internal.search.LocalSearchManager.updateIndex(LocalSearchManager.java:671)
+	at org.eclipse.help.internal.search.LocalSearchManager.ensureIndexUpdated(LocalSearchManager.java:645)
+	at org.eclipse.help.internal.search.LocalSearchManager.search(LocalSearchManager.java:590)
+	at org.eclipse.help.internal.search.SearchManager.searchLocal(SearchManager.java:103)
+	at org.eclipse.help.internal.search.SearchManager.search(SearchManager.java:94)
+	at org.eclipse.help.internal.search.SearchProgressMonitor$2.run(SearchProgressMonitor.java:162)
+	at java.lang.Thread.run(Thread.java:701)
+Caused by: java.util.NoSuchElementException
+	at java.util.StringTokenizer.nextToken(StringTokenizer.java:349)
+	at org.osgi.framework.Version.<init>(Version.java:127)
+	... 16 more
+
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:59:09.467
+!MESSAGE Problem occurred during indexing of documentation.
+!STACK 0
+java.lang.IllegalArgumentException: invalid format: 
+	at org.osgi.framework.Version.<init>(Version.java:150)
+	at org.eclipse.help.internal.search.SearchIndex.isLuceneCompatible(SearchIndex.java:721)
+	at org.eclipse.help.internal.search.PluginIndex.isCompatible(PluginIndex.java:152)
+	at org.eclipse.help.internal.search.PluginIndex.resolve(PluginIndex.java:83)
+	at org.eclipse.help.internal.search.PluginIndex.getPaths(PluginIndex.java:231)
+	at org.eclipse.help.internal.search.PrebuiltIndexes.trim(PrebuiltIndexes.java:46)
+	at org.eclipse.help.internal.search.PrebuiltIndexes.getIndexes(PrebuiltIndexes.java:54)
+	at org.eclipse.help.internal.search.IndexingOperation.mergeIndexes(IndexingOperation.java:544)
+	at org.eclipse.help.internal.search.IndexingOperation.addNewDocuments(IndexingOperation.java:152)
+	at org.eclipse.help.internal.search.IndexingOperation.execute(IndexingOperation.java:106)
+	at org.eclipse.help.internal.search.LocalSearchManager.updateIndex(LocalSearchManager.java:671)
+	at org.eclipse.help.internal.search.LocalSearchManager.ensureIndexUpdated(LocalSearchManager.java:645)
+	at org.eclipse.help.internal.search.LocalSearchManager.search(LocalSearchManager.java:590)
+	at org.eclipse.help.internal.search.SearchManager.searchLocal(SearchManager.java:103)
+	at org.eclipse.help.internal.search.SearchManager.search(SearchManager.java:94)
+	at org.eclipse.help.internal.search.SearchProgressMonitor$2.run(SearchProgressMonitor.java:162)
+	at java.lang.Thread.run(Thread.java:701)
+Caused by: java.util.NoSuchElementException
+	at java.util.StringTokenizer.nextToken(StringTokenizer.java:349)
+	at org.osgi.framework.Version.<init>(Version.java:127)
+	... 16 more
+
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:59:11.531
+!MESSAGE Problem occurred during indexing of documentation.
+!STACK 0
+java.lang.IllegalArgumentException: invalid format: 
+	at org.osgi.framework.Version.<init>(Version.java:150)
+	at org.eclipse.help.internal.search.SearchIndex.isLuceneCompatible(SearchIndex.java:721)
+	at org.eclipse.help.internal.search.PluginIndex.isCompatible(PluginIndex.java:152)
+	at org.eclipse.help.internal.search.PluginIndex.resolve(PluginIndex.java:83)
+	at org.eclipse.help.internal.search.PluginIndex.getPaths(PluginIndex.java:231)
+	at org.eclipse.help.internal.search.PrebuiltIndexes.trim(PrebuiltIndexes.java:46)
+	at org.eclipse.help.internal.search.PrebuiltIndexes.getIndexes(PrebuiltIndexes.java:54)
+	at org.eclipse.help.internal.search.IndexingOperation.mergeIndexes(IndexingOperation.java:544)
+	at org.eclipse.help.internal.search.IndexingOperation.addNewDocuments(IndexingOperation.java:152)
+	at org.eclipse.help.internal.search.IndexingOperation.execute(IndexingOperation.java:106)
+	at org.eclipse.help.internal.search.LocalSearchManager.updateIndex(LocalSearchManager.java:671)
+	at org.eclipse.help.internal.search.LocalSearchManager.ensureIndexUpdated(LocalSearchManager.java:645)
+	at org.eclipse.help.internal.search.LocalSearchManager.search(LocalSearchManager.java:590)
+	at org.eclipse.help.internal.search.SearchManager.searchLocal(SearchManager.java:103)
+	at org.eclipse.help.internal.search.SearchManager.search(SearchManager.java:94)
+	at org.eclipse.help.internal.search.SearchProgressMonitor$2.run(SearchProgressMonitor.java:162)
+	at java.lang.Thread.run(Thread.java:701)
+Caused by: java.util.NoSuchElementException
+	at java.util.StringTokenizer.nextToken(StringTokenizer.java:349)
+	at org.osgi.framework.Version.<init>(Version.java:127)
+	... 16 more
+
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:59:13.613
+!MESSAGE Problem occurred during indexing of documentation.
+!STACK 0
+java.lang.IllegalArgumentException: invalid format: 
+	at org.osgi.framework.Version.<init>(Version.java:150)
+	at org.eclipse.help.internal.search.SearchIndex.isLuceneCompatible(SearchIndex.java:721)
+	at org.eclipse.help.internal.search.PluginIndex.isCompatible(PluginIndex.java:152)
+	at org.eclipse.help.internal.search.PluginIndex.resolve(PluginIndex.java:83)
+	at org.eclipse.help.internal.search.PluginIndex.getPaths(PluginIndex.java:231)
+	at org.eclipse.help.internal.search.PrebuiltIndexes.trim(PrebuiltIndexes.java:46)
+	at org.eclipse.help.internal.search.PrebuiltIndexes.getIndexes(PrebuiltIndexes.java:54)
+	at org.eclipse.help.internal.search.IndexingOperation.mergeIndexes(IndexingOperation.java:544)
+	at org.eclipse.help.internal.search.IndexingOperation.addNewDocuments(IndexingOperation.java:152)
+	at org.eclipse.help.internal.search.IndexingOperation.execute(IndexingOperation.java:106)
+	at org.eclipse.help.internal.search.LocalSearchManager.updateIndex(LocalSearchManager.java:671)
+	at org.eclipse.help.internal.search.LocalSearchManager.ensureIndexUpdated(LocalSearchManager.java:645)
+	at org.eclipse.help.internal.search.LocalSearchManager.search(LocalSearchManager.java:590)
+	at org.eclipse.help.internal.search.SearchManager.searchLocal(SearchManager.java:103)
+	at org.eclipse.help.internal.search.SearchManager.search(SearchManager.java:94)
+	at org.eclipse.help.internal.search.SearchProgressMonitor$2.run(SearchProgressMonitor.java:162)
+	at java.lang.Thread.run(Thread.java:701)
+Caused by: java.util.NoSuchElementException
+	at java.util.StringTokenizer.nextToken(StringTokenizer.java:349)
+	at org.osgi.framework.Version.<init>(Version.java:127)
+	... 16 more
+
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:59:15.667
+!MESSAGE Problem occurred during indexing of documentation.
+!STACK 0
+java.lang.IllegalArgumentException: invalid format: 
+	at org.osgi.framework.Version.<init>(Version.java:150)
+	at org.eclipse.help.internal.search.SearchIndex.isLuceneCompatible(SearchIndex.java:721)
+	at org.eclipse.help.internal.search.PluginIndex.isCompatible(PluginIndex.java:152)
+	at org.eclipse.help.internal.search.PluginIndex.resolve(PluginIndex.java:83)
+	at org.eclipse.help.internal.search.PluginIndex.getPaths(PluginIndex.java:231)
+	at org.eclipse.help.internal.search.PrebuiltIndexes.trim(PrebuiltIndexes.java:46)
+	at org.eclipse.help.internal.search.PrebuiltIndexes.getIndexes(PrebuiltIndexes.java:54)
+	at org.eclipse.help.internal.search.IndexingOperation.mergeIndexes(IndexingOperation.java:544)
+	at org.eclipse.help.internal.search.IndexingOperation.addNewDocuments(IndexingOperation.java:152)
+	at org.eclipse.help.internal.search.IndexingOperation.execute(IndexingOperation.java:106)
+	at org.eclipse.help.internal.search.LocalSearchManager.updateIndex(LocalSearchManager.java:671)
+	at org.eclipse.help.internal.search.LocalSearchManager.ensureIndexUpdated(LocalSearchManager.java:645)
+	at org.eclipse.help.internal.search.LocalSearchManager.search(LocalSearchManager.java:590)
+	at org.eclipse.help.internal.search.SearchManager.searchLocal(SearchManager.java:103)
+	at org.eclipse.help.internal.search.SearchManager.search(SearchManager.java:94)
+	at org.eclipse.help.internal.search.SearchProgressMonitor$2.run(SearchProgressMonitor.java:162)
+	at java.lang.Thread.run(Thread.java:701)
+Caused by: java.util.NoSuchElementException
+	at java.util.StringTokenizer.nextToken(StringTokenizer.java:349)
+	at org.osgi.framework.Version.<init>(Version.java:127)
+	... 16 more
+
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:59:17.737
+!MESSAGE Problem occurred during indexing of documentation.
+!STACK 0
+java.lang.IllegalArgumentException: invalid format: 
+	at org.osgi.framework.Version.<init>(Version.java:150)
+	at org.eclipse.help.internal.search.SearchIndex.isLuceneCompatible(SearchIndex.java:721)
+	at org.eclipse.help.internal.search.PluginIndex.isCompatible(PluginIndex.java:152)
+	at org.eclipse.help.internal.search.PluginIndex.resolve(PluginIndex.java:83)
+	at org.eclipse.help.internal.search.PluginIndex.getPaths(PluginIndex.java:231)
+	at org.eclipse.help.internal.search.PrebuiltIndexes.trim(PrebuiltIndexes.java:46)
+	at org.eclipse.help.internal.search.PrebuiltIndexes.getIndexes(PrebuiltIndexes.java:54)
+	at org.eclipse.help.internal.search.IndexingOperation.mergeIndexes(IndexingOperation.java:544)
+	at org.eclipse.help.internal.search.IndexingOperation.addNewDocuments(IndexingOperation.java:152)
+	at org.eclipse.help.internal.search.IndexingOperation.execute(IndexingOperation.java:106)
+	at org.eclipse.help.internal.search.LocalSearchManager.updateIndex(LocalSearchManager.java:671)
+	at org.eclipse.help.internal.search.LocalSearchManager.ensureIndexUpdated(LocalSearchManager.java:645)
+	at org.eclipse.help.internal.search.LocalSearchManager.search(LocalSearchManager.java:590)
+	at org.eclipse.help.internal.search.SearchManager.searchLocal(SearchManager.java:103)
+	at org.eclipse.help.internal.search.SearchManager.search(SearchManager.java:94)
+	at org.eclipse.help.internal.search.SearchProgressMonitor$2.run(SearchProgressMonitor.java:162)
+	at java.lang.Thread.run(Thread.java:701)
+Caused by: java.util.NoSuchElementException
+	at java.util.StringTokenizer.nextToken(StringTokenizer.java:349)
+	at org.osgi.framework.Version.<init>(Version.java:127)
+	... 16 more
+
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:59:19.808
+!MESSAGE Problem occurred during indexing of documentation.
+!STACK 0
+java.lang.IllegalArgumentException: invalid format: 
+	at org.osgi.framework.Version.<init>(Version.java:150)
+	at org.eclipse.help.internal.search.SearchIndex.isLuceneCompatible(SearchIndex.java:721)
+	at org.eclipse.help.internal.search.PluginIndex.isCompatible(PluginIndex.java:152)
+	at org.eclipse.help.internal.search.PluginIndex.resolve(PluginIndex.java:83)
+	at org.eclipse.help.internal.search.PluginIndex.getPaths(PluginIndex.java:231)
+	at org.eclipse.help.internal.search.PrebuiltIndexes.trim(PrebuiltIndexes.java:46)
+	at org.eclipse.help.internal.search.PrebuiltIndexes.getIndexes(PrebuiltIndexes.java:54)
+	at org.eclipse.help.internal.search.IndexingOperation.mergeIndexes(IndexingOperation.java:544)
+	at org.eclipse.help.internal.search.IndexingOperation.addNewDocuments(IndexingOperation.java:152)
+	at org.eclipse.help.internal.search.IndexingOperation.execute(IndexingOperation.java:106)
+	at org.eclipse.help.internal.search.LocalSearchManager.updateIndex(LocalSearchManager.java:671)
+	at org.eclipse.help.internal.search.LocalSearchManager.ensureIndexUpdated(LocalSearchManager.java:645)
+	at org.eclipse.help.internal.search.LocalSearchManager.search(LocalSearchManager.java:590)
+	at org.eclipse.help.internal.search.SearchManager.searchLocal(SearchManager.java:103)
+	at org.eclipse.help.internal.search.SearchManager.search(SearchManager.java:94)
+	at org.eclipse.help.internal.search.SearchProgressMonitor$2.run(SearchProgressMonitor.java:162)
+	at java.lang.Thread.run(Thread.java:701)
+Caused by: java.util.NoSuchElementException
+	at java.util.StringTokenizer.nextToken(StringTokenizer.java:349)
+	at org.osgi.framework.Version.<init>(Version.java:127)
+	... 16 more
+
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:59:21.875
+!MESSAGE Problem occurred during indexing of documentation.
+!STACK 0
+java.lang.IllegalArgumentException: invalid format: 
+	at org.osgi.framework.Version.<init>(Version.java:150)
+	at org.eclipse.help.internal.search.SearchIndex.isLuceneCompatible(SearchIndex.java:721)
+	at org.eclipse.help.internal.search.PluginIndex.isCompatible(PluginIndex.java:152)
+	at org.eclipse.help.internal.search.PluginIndex.resolve(PluginIndex.java:83)
+	at org.eclipse.help.internal.search.PluginIndex.getPaths(PluginIndex.java:231)
+	at org.eclipse.help.internal.search.PrebuiltIndexes.trim(PrebuiltIndexes.java:46)
+	at org.eclipse.help.internal.search.PrebuiltIndexes.getIndexes(PrebuiltIndexes.java:54)
+	at org.eclipse.help.internal.search.IndexingOperation.mergeIndexes(IndexingOperation.java:544)
+	at org.eclipse.help.internal.search.IndexingOperation.addNewDocuments(IndexingOperation.java:152)
+	at org.eclipse.help.internal.search.IndexingOperation.execute(IndexingOperation.java:106)
+	at org.eclipse.help.internal.search.LocalSearchManager.updateIndex(LocalSearchManager.java:671)
+	at org.eclipse.help.internal.search.LocalSearchManager.ensureIndexUpdated(LocalSearchManager.java:645)
+	at org.eclipse.help.internal.search.LocalSearchManager.search(LocalSearchManager.java:590)
+	at org.eclipse.help.internal.search.SearchManager.searchLocal(SearchManager.java:103)
+	at org.eclipse.help.internal.search.SearchManager.search(SearchManager.java:94)
+	at org.eclipse.help.internal.search.SearchProgressMonitor$2.run(SearchProgressMonitor.java:162)
+	at java.lang.Thread.run(Thread.java:701)
+Caused by: java.util.NoSuchElementException
+	at java.util.StringTokenizer.nextToken(StringTokenizer.java:349)
+	at org.osgi.framework.Version.<init>(Version.java:127)
+	... 16 more
+
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:59:23.946
+!MESSAGE Problem occurred during indexing of documentation.
+!STACK 0
+java.lang.IllegalArgumentException: invalid format: 
+	at org.osgi.framework.Version.<init>(Version.java:150)
+	at org.eclipse.help.internal.search.SearchIndex.isLuceneCompatible(SearchIndex.java:721)
+	at org.eclipse.help.internal.search.PluginIndex.isCompatible(PluginIndex.java:152)
+	at org.eclipse.help.internal.search.PluginIndex.resolve(PluginIndex.java:83)
+	at org.eclipse.help.internal.search.PluginIndex.getPaths(PluginIndex.java:231)
+	at org.eclipse.help.internal.search.PrebuiltIndexes.trim(PrebuiltIndexes.java:46)
+	at org.eclipse.help.internal.search.PrebuiltIndexes.getIndexes(PrebuiltIndexes.java:54)
+	at org.eclipse.help.internal.search.IndexingOperation.mergeIndexes(IndexingOperation.java:544)
+	at org.eclipse.help.internal.search.IndexingOperation.addNewDocuments(IndexingOperation.java:152)
+	at org.eclipse.help.internal.search.IndexingOperation.execute(IndexingOperation.java:106)
+	at org.eclipse.help.internal.search.LocalSearchManager.updateIndex(LocalSearchManager.java:671)
+	at org.eclipse.help.internal.search.LocalSearchManager.ensureIndexUpdated(LocalSearchManager.java:645)
+	at org.eclipse.help.internal.search.LocalSearchManager.search(LocalSearchManager.java:590)
+	at org.eclipse.help.internal.search.SearchManager.searchLocal(SearchManager.java:103)
+	at org.eclipse.help.internal.search.SearchManager.search(SearchManager.java:94)
+	at org.eclipse.help.internal.search.SearchProgressMonitor$2.run(SearchProgressMonitor.java:162)
+	at java.lang.Thread.run(Thread.java:701)
+Caused by: java.util.NoSuchElementException
+	at java.util.StringTokenizer.nextToken(StringTokenizer.java:349)
+	at org.osgi.framework.Version.<init>(Version.java:127)
+	... 16 more
+
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:59:26.015
+!MESSAGE Problem occurred during indexing of documentation.
+!STACK 0
+java.lang.IllegalArgumentException: invalid format: 
+	at org.osgi.framework.Version.<init>(Version.java:150)
+	at org.eclipse.help.internal.search.SearchIndex.isLuceneCompatible(SearchIndex.java:721)
+	at org.eclipse.help.internal.search.PluginIndex.isCompatible(PluginIndex.java:152)
+	at org.eclipse.help.internal.search.PluginIndex.resolve(PluginIndex.java:83)
+	at org.eclipse.help.internal.search.PluginIndex.getPaths(PluginIndex.java:231)
+	at org.eclipse.help.internal.search.PrebuiltIndexes.trim(PrebuiltIndexes.java:46)
+	at org.eclipse.help.internal.search.PrebuiltIndexes.getIndexes(PrebuiltIndexes.java:54)
+	at org.eclipse.help.internal.search.IndexingOperation.mergeIndexes(IndexingOperation.java:544)
+	at org.eclipse.help.internal.search.IndexingOperation.addNewDocuments(IndexingOperation.java:152)
+	at org.eclipse.help.internal.search.IndexingOperation.execute(IndexingOperation.java:106)
+	at org.eclipse.help.internal.search.LocalSearchManager.updateIndex(LocalSearchManager.java:671)
+	at org.eclipse.help.internal.search.LocalSearchManager.ensureIndexUpdated(LocalSearchManager.java:645)
+	at org.eclipse.help.internal.search.LocalSearchManager.search(LocalSearchManager.java:590)
+	at org.eclipse.help.internal.search.SearchManager.searchLocal(SearchManager.java:103)
+	at org.eclipse.help.internal.search.SearchManager.search(SearchManager.java:94)
+	at org.eclipse.help.internal.search.SearchProgressMonitor$2.run(SearchProgressMonitor.java:162)
+	at java.lang.Thread.run(Thread.java:701)
+Caused by: java.util.NoSuchElementException
+	at java.util.StringTokenizer.nextToken(StringTokenizer.java:349)
+	at org.osgi.framework.Version.<init>(Version.java:127)
+	... 16 more
+
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:59:28.085
+!MESSAGE Problem occurred during indexing of documentation.
+!STACK 0
+java.lang.IllegalArgumentException: invalid format: 
+	at org.osgi.framework.Version.<init>(Version.java:150)
+	at org.eclipse.help.internal.search.SearchIndex.isLuceneCompatible(SearchIndex.java:721)
+	at org.eclipse.help.internal.search.PluginIndex.isCompatible(PluginIndex.java:152)
+	at org.eclipse.help.internal.search.PluginIndex.resolve(PluginIndex.java:83)
+	at org.eclipse.help.internal.search.PluginIndex.getPaths(PluginIndex.java:231)
+	at org.eclipse.help.internal.search.PrebuiltIndexes.trim(PrebuiltIndexes.java:46)
+	at org.eclipse.help.internal.search.PrebuiltIndexes.getIndexes(PrebuiltIndexes.java:54)
+	at org.eclipse.help.internal.search.IndexingOperation.mergeIndexes(IndexingOperation.java:544)
+	at org.eclipse.help.internal.search.IndexingOperation.addNewDocuments(IndexingOperation.java:152)
+	at org.eclipse.help.internal.search.IndexingOperation.execute(IndexingOperation.java:106)
+	at org.eclipse.help.internal.search.LocalSearchManager.updateIndex(LocalSearchManager.java:671)
+	at org.eclipse.help.internal.search.LocalSearchManager.ensureIndexUpdated(LocalSearchManager.java:645)
+	at org.eclipse.help.internal.search.LocalSearchManager.search(LocalSearchManager.java:590)
+	at org.eclipse.help.internal.search.SearchManager.searchLocal(SearchManager.java:103)
+	at org.eclipse.help.internal.search.SearchManager.search(SearchManager.java:94)
+	at org.eclipse.help.internal.search.SearchProgressMonitor$2.run(SearchProgressMonitor.java:162)
+	at java.lang.Thread.run(Thread.java:701)
+Caused by: java.util.NoSuchElementException
+	at java.util.StringTokenizer.nextToken(StringTokenizer.java:349)
+	at org.osgi.framework.Version.<init>(Version.java:127)
+	... 16 more
+
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:59:30.156
+!MESSAGE Problem occurred during indexing of documentation.
+!STACK 0
+java.lang.IllegalArgumentException: invalid format: 
+	at org.osgi.framework.Version.<init>(Version.java:150)
+	at org.eclipse.help.internal.search.SearchIndex.isLuceneCompatible(SearchIndex.java:721)
+	at org.eclipse.help.internal.search.PluginIndex.isCompatible(PluginIndex.java:152)
+	at org.eclipse.help.internal.search.PluginIndex.resolve(PluginIndex.java:83)
+	at org.eclipse.help.internal.search.PluginIndex.getPaths(PluginIndex.java:231)
+	at org.eclipse.help.internal.search.PrebuiltIndexes.trim(PrebuiltIndexes.java:46)
+	at org.eclipse.help.internal.search.PrebuiltIndexes.getIndexes(PrebuiltIndexes.java:54)
+	at org.eclipse.help.internal.search.IndexingOperation.mergeIndexes(IndexingOperation.java:544)
+	at org.eclipse.help.internal.search.IndexingOperation.addNewDocuments(IndexingOperation.java:152)
+	at org.eclipse.help.internal.search.IndexingOperation.execute(IndexingOperation.java:106)
+	at org.eclipse.help.internal.search.LocalSearchManager.updateIndex(LocalSearchManager.java:671)
+	at org.eclipse.help.internal.search.LocalSearchManager.ensureIndexUpdated(LocalSearchManager.java:645)
+	at org.eclipse.help.internal.search.LocalSearchManager.search(LocalSearchManager.java:590)
+	at org.eclipse.help.internal.search.SearchManager.searchLocal(SearchManager.java:103)
+	at org.eclipse.help.internal.search.SearchManager.search(SearchManager.java:94)
+	at org.eclipse.help.internal.search.SearchProgressMonitor$2.run(SearchProgressMonitor.java:162)
+	at java.lang.Thread.run(Thread.java:701)
+Caused by: java.util.NoSuchElementException
+	at java.util.StringTokenizer.nextToken(StringTokenizer.java:349)
+	at org.osgi.framework.Version.<init>(Version.java:127)
+	... 16 more
+
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:59:32.225
+!MESSAGE Problem occurred during indexing of documentation.
+!STACK 0
+java.lang.IllegalArgumentException: invalid format: 
+	at org.osgi.framework.Version.<init>(Version.java:150)
+	at org.eclipse.help.internal.search.SearchIndex.isLuceneCompatible(SearchIndex.java:721)
+	at org.eclipse.help.internal.search.PluginIndex.isCompatible(PluginIndex.java:152)
+	at org.eclipse.help.internal.search.PluginIndex.resolve(PluginIndex.java:83)
+	at org.eclipse.help.internal.search.PluginIndex.getPaths(PluginIndex.java:231)
+	at org.eclipse.help.internal.search.PrebuiltIndexes.trim(PrebuiltIndexes.java:46)
+	at org.eclipse.help.internal.search.PrebuiltIndexes.getIndexes(PrebuiltIndexes.java:54)
+	at org.eclipse.help.internal.search.IndexingOperation.mergeIndexes(IndexingOperation.java:544)
+	at org.eclipse.help.internal.search.IndexingOperation.addNewDocuments(IndexingOperation.java:152)
+	at org.eclipse.help.internal.search.IndexingOperation.execute(IndexingOperation.java:106)
+	at org.eclipse.help.internal.search.LocalSearchManager.updateIndex(LocalSearchManager.java:671)
+	at org.eclipse.help.internal.search.LocalSearchManager.ensureIndexUpdated(LocalSearchManager.java:645)
+	at org.eclipse.help.internal.search.LocalSearchManager.search(LocalSearchManager.java:590)
+	at org.eclipse.help.internal.search.SearchManager.searchLocal(SearchManager.java:103)
+	at org.eclipse.help.internal.search.SearchManager.search(SearchManager.java:94)
+	at org.eclipse.help.internal.search.SearchProgressMonitor$2.run(SearchProgressMonitor.java:162)
+	at java.lang.Thread.run(Thread.java:701)
+Caused by: java.util.NoSuchElementException
+	at java.util.StringTokenizer.nextToken(StringTokenizer.java:349)
+	at org.osgi.framework.Version.<init>(Version.java:127)
+	... 16 more
+
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:59:34.294
+!MESSAGE Problem occurred during indexing of documentation.
+!STACK 0
+java.lang.IllegalArgumentException: invalid format: 
+	at org.osgi.framework.Version.<init>(Version.java:150)
+	at org.eclipse.help.internal.search.SearchIndex.isLuceneCompatible(SearchIndex.java:721)
+	at org.eclipse.help.internal.search.PluginIndex.isCompatible(PluginIndex.java:152)
+	at org.eclipse.help.internal.search.PluginIndex.resolve(PluginIndex.java:83)
+	at org.eclipse.help.internal.search.PluginIndex.getPaths(PluginIndex.java:231)
+	at org.eclipse.help.internal.search.PrebuiltIndexes.trim(PrebuiltIndexes.java:46)
+	at org.eclipse.help.internal.search.PrebuiltIndexes.getIndexes(PrebuiltIndexes.java:54)
+	at org.eclipse.help.internal.search.IndexingOperation.mergeIndexes(IndexingOperation.java:544)
+	at org.eclipse.help.internal.search.IndexingOperation.addNewDocuments(IndexingOperation.java:152)
+	at org.eclipse.help.internal.search.IndexingOperation.execute(IndexingOperation.java:106)
+	at org.eclipse.help.internal.search.LocalSearchManager.updateIndex(LocalSearchManager.java:671)
+	at org.eclipse.help.internal.search.LocalSearchManager.ensureIndexUpdated(LocalSearchManager.java:645)
+	at org.eclipse.help.internal.search.LocalSearchManager.search(LocalSearchManager.java:590)
+	at org.eclipse.help.internal.search.SearchManager.searchLocal(SearchManager.java:103)
+	at org.eclipse.help.internal.search.SearchManager.search(SearchManager.java:94)
+	at org.eclipse.help.internal.search.SearchProgressMonitor$2.run(SearchProgressMonitor.java:162)
+	at java.lang.Thread.run(Thread.java:701)
+Caused by: java.util.NoSuchElementException
+	at java.util.StringTokenizer.nextToken(StringTokenizer.java:349)
+	at org.osgi.framework.Version.<init>(Version.java:127)
+	... 16 more
+
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:59:36.380
+!MESSAGE Problem occurred during indexing of documentation.
+!STACK 0
+java.lang.IllegalArgumentException: invalid format: 
+	at org.osgi.framework.Version.<init>(Version.java:150)
+	at org.eclipse.help.internal.search.SearchIndex.isLuceneCompatible(SearchIndex.java:721)
+	at org.eclipse.help.internal.search.PluginIndex.isCompatible(PluginIndex.java:152)
+	at org.eclipse.help.internal.search.PluginIndex.resolve(PluginIndex.java:83)
+	at org.eclipse.help.internal.search.PluginIndex.getPaths(PluginIndex.java:231)
+	at org.eclipse.help.internal.search.PrebuiltIndexes.trim(PrebuiltIndexes.java:46)
+	at org.eclipse.help.internal.search.PrebuiltIndexes.getIndexes(PrebuiltIndexes.java:54)
+	at org.eclipse.help.internal.search.IndexingOperation.mergeIndexes(IndexingOperation.java:544)
+	at org.eclipse.help.internal.search.IndexingOperation.addNewDocuments(IndexingOperation.java:152)
+	at org.eclipse.help.internal.search.IndexingOperation.execute(IndexingOperation.java:106)
+	at org.eclipse.help.internal.search.LocalSearchManager.updateIndex(LocalSearchManager.java:671)
+	at org.eclipse.help.internal.search.LocalSearchManager.ensureIndexUpdated(LocalSearchManager.java:645)
+	at org.eclipse.help.internal.search.LocalSearchManager.search(LocalSearchManager.java:590)
+	at org.eclipse.help.internal.search.SearchManager.searchLocal(SearchManager.java:103)
+	at org.eclipse.help.internal.search.SearchManager.search(SearchManager.java:94)
+	at org.eclipse.help.internal.search.SearchProgressMonitor$2.run(SearchProgressMonitor.java:162)
+	at java.lang.Thread.run(Thread.java:701)
+Caused by: java.util.NoSuchElementException
+	at java.util.StringTokenizer.nextToken(StringTokenizer.java:349)
+	at org.osgi.framework.Version.<init>(Version.java:127)
+	... 16 more
+
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:59:38.435
+!MESSAGE Problem occurred during indexing of documentation.
+!STACK 0
+java.lang.IllegalArgumentException: invalid format: 
+	at org.osgi.framework.Version.<init>(Version.java:150)
+	at org.eclipse.help.internal.search.SearchIndex.isLuceneCompatible(SearchIndex.java:721)
+	at org.eclipse.help.internal.search.PluginIndex.isCompatible(PluginIndex.java:152)
+	at org.eclipse.help.internal.search.PluginIndex.resolve(PluginIndex.java:83)
+	at org.eclipse.help.internal.search.PluginIndex.getPaths(PluginIndex.java:231)
+	at org.eclipse.help.internal.search.PrebuiltIndexes.trim(PrebuiltIndexes.java:46)
+	at org.eclipse.help.internal.search.PrebuiltIndexes.getIndexes(PrebuiltIndexes.java:54)
+	at org.eclipse.help.internal.search.IndexingOperation.mergeIndexes(IndexingOperation.java:544)
+	at org.eclipse.help.internal.search.IndexingOperation.addNewDocuments(IndexingOperation.java:152)
+	at org.eclipse.help.internal.search.IndexingOperation.execute(IndexingOperation.java:106)
+	at org.eclipse.help.internal.search.LocalSearchManager.updateIndex(LocalSearchManager.java:671)
+	at org.eclipse.help.internal.search.LocalSearchManager.ensureIndexUpdated(LocalSearchManager.java:645)
+	at org.eclipse.help.internal.search.LocalSearchManager.search(LocalSearchManager.java:590)
+	at org.eclipse.help.internal.search.SearchManager.searchLocal(SearchManager.java:103)
+	at org.eclipse.help.internal.search.SearchManager.search(SearchManager.java:94)
+	at org.eclipse.help.internal.search.SearchProgressMonitor$2.run(SearchProgressMonitor.java:162)
+	at java.lang.Thread.run(Thread.java:701)
+Caused by: java.util.NoSuchElementException
+	at java.util.StringTokenizer.nextToken(StringTokenizer.java:349)
+	at org.osgi.framework.Version.<init>(Version.java:127)
+	... 16 more
+
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:59:40.504
+!MESSAGE Problem occurred during indexing of documentation.
+!STACK 0
+java.lang.IllegalArgumentException: invalid format: 
+	at org.osgi.framework.Version.<init>(Version.java:150)
+	at org.eclipse.help.internal.search.SearchIndex.isLuceneCompatible(SearchIndex.java:721)
+	at org.eclipse.help.internal.search.PluginIndex.isCompatible(PluginIndex.java:152)
+	at org.eclipse.help.internal.search.PluginIndex.resolve(PluginIndex.java:83)
+	at org.eclipse.help.internal.search.PluginIndex.getPaths(PluginIndex.java:231)
+	at org.eclipse.help.internal.search.PrebuiltIndexes.trim(PrebuiltIndexes.java:46)
+	at org.eclipse.help.internal.search.PrebuiltIndexes.getIndexes(PrebuiltIndexes.java:54)
+	at org.eclipse.help.internal.search.IndexingOperation.mergeIndexes(IndexingOperation.java:544)
+	at org.eclipse.help.internal.search.IndexingOperation.addNewDocuments(IndexingOperation.java:152)
+	at org.eclipse.help.internal.search.IndexingOperation.execute(IndexingOperation.java:106)
+	at org.eclipse.help.internal.search.LocalSearchManager.updateIndex(LocalSearchManager.java:671)
+	at org.eclipse.help.internal.search.LocalSearchManager.ensureIndexUpdated(LocalSearchManager.java:645)
+	at org.eclipse.help.internal.search.LocalSearchManager.search(LocalSearchManager.java:590)
+	at org.eclipse.help.internal.search.SearchManager.searchLocal(SearchManager.java:103)
+	at org.eclipse.help.internal.search.SearchManager.search(SearchManager.java:94)
+	at org.eclipse.help.internal.search.SearchProgressMonitor$2.run(SearchProgressMonitor.java:162)
+	at java.lang.Thread.run(Thread.java:701)
+Caused by: java.util.NoSuchElementException
+	at java.util.StringTokenizer.nextToken(StringTokenizer.java:349)
+	at org.osgi.framework.Version.<init>(Version.java:127)
+	... 16 more
+
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:59:42.573
+!MESSAGE Problem occurred during indexing of documentation.
+!STACK 0
+java.lang.IllegalArgumentException: invalid format: 
+	at org.osgi.framework.Version.<init>(Version.java:150)
+	at org.eclipse.help.internal.search.SearchIndex.isLuceneCompatible(SearchIndex.java:721)
+	at org.eclipse.help.internal.search.PluginIndex.isCompatible(PluginIndex.java:152)
+	at org.eclipse.help.internal.search.PluginIndex.resolve(PluginIndex.java:83)
+	at org.eclipse.help.internal.search.PluginIndex.getPaths(PluginIndex.java:231)
+	at org.eclipse.help.internal.search.PrebuiltIndexes.trim(PrebuiltIndexes.java:46)
+	at org.eclipse.help.internal.search.PrebuiltIndexes.getIndexes(PrebuiltIndexes.java:54)
+	at org.eclipse.help.internal.search.IndexingOperation.mergeIndexes(IndexingOperation.java:544)
+	at org.eclipse.help.internal.search.IndexingOperation.addNewDocuments(IndexingOperation.java:152)
+	at org.eclipse.help.internal.search.IndexingOperation.execute(IndexingOperation.java:106)
+	at org.eclipse.help.internal.search.LocalSearchManager.updateIndex(LocalSearchManager.java:671)
+	at org.eclipse.help.internal.search.LocalSearchManager.ensureIndexUpdated(LocalSearchManager.java:645)
+	at org.eclipse.help.internal.search.LocalSearchManager.search(LocalSearchManager.java:590)
+	at org.eclipse.help.internal.search.SearchManager.searchLocal(SearchManager.java:103)
+	at org.eclipse.help.internal.search.SearchManager.search(SearchManager.java:94)
+	at org.eclipse.help.internal.search.SearchProgressMonitor$2.run(SearchProgressMonitor.java:162)
+	at java.lang.Thread.run(Thread.java:701)
+Caused by: java.util.NoSuchElementException
+	at java.util.StringTokenizer.nextToken(StringTokenizer.java:349)
+	at org.osgi.framework.Version.<init>(Version.java:127)
+	... 16 more
+
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:59:44.642
+!MESSAGE Problem occurred during indexing of documentation.
+!STACK 0
+java.lang.IllegalArgumentException: invalid format: 
+	at org.osgi.framework.Version.<init>(Version.java:150)
+	at org.eclipse.help.internal.search.SearchIndex.isLuceneCompatible(SearchIndex.java:721)
+	at org.eclipse.help.internal.search.PluginIndex.isCompatible(PluginIndex.java:152)
+	at org.eclipse.help.internal.search.PluginIndex.resolve(PluginIndex.java:83)
+	at org.eclipse.help.internal.search.PluginIndex.getPaths(PluginIndex.java:231)
+	at org.eclipse.help.internal.search.PrebuiltIndexes.trim(PrebuiltIndexes.java:46)
+	at org.eclipse.help.internal.search.PrebuiltIndexes.getIndexes(PrebuiltIndexes.java:54)
+	at org.eclipse.help.internal.search.IndexingOperation.mergeIndexes(IndexingOperation.java:544)
+	at org.eclipse.help.internal.search.IndexingOperation.addNewDocuments(IndexingOperation.java:152)
+	at org.eclipse.help.internal.search.IndexingOperation.execute(IndexingOperation.java:106)
+	at org.eclipse.help.internal.search.LocalSearchManager.updateIndex(LocalSearchManager.java:671)
+	at org.eclipse.help.internal.search.LocalSearchManager.ensureIndexUpdated(LocalSearchManager.java:645)
+	at org.eclipse.help.internal.search.LocalSearchManager.search(LocalSearchManager.java:590)
+	at org.eclipse.help.internal.search.SearchManager.searchLocal(SearchManager.java:103)
+	at org.eclipse.help.internal.search.SearchManager.search(SearchManager.java:94)
+	at org.eclipse.help.internal.search.SearchProgressMonitor$2.run(SearchProgressMonitor.java:162)
+	at java.lang.Thread.run(Thread.java:701)
+Caused by: java.util.NoSuchElementException
+	at java.util.StringTokenizer.nextToken(StringTokenizer.java:349)
+	at org.osgi.framework.Version.<init>(Version.java:127)
+	... 16 more
+
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:59:46.701
+!MESSAGE Problem occurred during indexing of documentation.
+!STACK 0
+java.lang.IllegalArgumentException: invalid format: 
+	at org.osgi.framework.Version.<init>(Version.java:150)
+	at org.eclipse.help.internal.search.SearchIndex.isLuceneCompatible(SearchIndex.java:721)
+	at org.eclipse.help.internal.search.PluginIndex.isCompatible(PluginIndex.java:152)
+	at org.eclipse.help.internal.search.PluginIndex.resolve(PluginIndex.java:83)
+	at org.eclipse.help.internal.search.PluginIndex.getPaths(PluginIndex.java:231)
+	at org.eclipse.help.internal.search.PrebuiltIndexes.trim(PrebuiltIndexes.java:46)
+	at org.eclipse.help.internal.search.PrebuiltIndexes.getIndexes(PrebuiltIndexes.java:54)
+	at org.eclipse.help.internal.search.IndexingOperation.mergeIndexes(IndexingOperation.java:544)
+	at org.eclipse.help.internal.search.IndexingOperation.addNewDocuments(IndexingOperation.java:152)
+	at org.eclipse.help.internal.search.IndexingOperation.execute(IndexingOperation.java:106)
+	at org.eclipse.help.internal.search.LocalSearchManager.updateIndex(LocalSearchManager.java:671)
+	at org.eclipse.help.internal.search.LocalSearchManager.ensureIndexUpdated(LocalSearchManager.java:645)
+	at org.eclipse.help.internal.search.LocalSearchManager.search(LocalSearchManager.java:590)
+	at org.eclipse.help.internal.search.SearchManager.searchLocal(SearchManager.java:103)
+	at org.eclipse.help.internal.search.SearchManager.search(SearchManager.java:94)
+	at org.eclipse.help.internal.search.SearchProgressMonitor$2.run(SearchProgressMonitor.java:162)
+	at java.lang.Thread.run(Thread.java:701)
+Caused by: java.util.NoSuchElementException
+	at java.util.StringTokenizer.nextToken(StringTokenizer.java:349)
+	at org.osgi.framework.Version.<init>(Version.java:127)
+	... 16 more
+
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:59:48.776
+!MESSAGE Problem occurred during indexing of documentation.
+!STACK 0
+java.lang.IllegalArgumentException: invalid format: 
+	at org.osgi.framework.Version.<init>(Version.java:150)
+	at org.eclipse.help.internal.search.SearchIndex.isLuceneCompatible(SearchIndex.java:721)
+	at org.eclipse.help.internal.search.PluginIndex.isCompatible(PluginIndex.java:152)
+	at org.eclipse.help.internal.search.PluginIndex.resolve(PluginIndex.java:83)
+	at org.eclipse.help.internal.search.PluginIndex.getPaths(PluginIndex.java:231)
+	at org.eclipse.help.internal.search.PrebuiltIndexes.trim(PrebuiltIndexes.java:46)
+	at org.eclipse.help.internal.search.PrebuiltIndexes.getIndexes(PrebuiltIndexes.java:54)
+	at org.eclipse.help.internal.search.IndexingOperation.mergeIndexes(IndexingOperation.java:544)
+	at org.eclipse.help.internal.search.IndexingOperation.addNewDocuments(IndexingOperation.java:152)
+	at org.eclipse.help.internal.search.IndexingOperation.execute(IndexingOperation.java:106)
+	at org.eclipse.help.internal.search.LocalSearchManager.updateIndex(LocalSearchManager.java:671)
+	at org.eclipse.help.internal.search.LocalSearchManager.ensureIndexUpdated(LocalSearchManager.java:645)
+	at org.eclipse.help.internal.search.LocalSearchManager.search(LocalSearchManager.java:590)
+	at org.eclipse.help.internal.search.SearchManager.searchLocal(SearchManager.java:103)
+	at org.eclipse.help.internal.search.SearchManager.search(SearchManager.java:94)
+	at org.eclipse.help.internal.search.SearchProgressMonitor$2.run(SearchProgressMonitor.java:162)
+	at java.lang.Thread.run(Thread.java:701)
+Caused by: java.util.NoSuchElementException
+	at java.util.StringTokenizer.nextToken(StringTokenizer.java:349)
+	at org.osgi.framework.Version.<init>(Version.java:127)
+	... 16 more
+
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:59:50.844
+!MESSAGE Problem occurred during indexing of documentation.
+!STACK 0
+java.lang.IllegalArgumentException: invalid format: 
+	at org.osgi.framework.Version.<init>(Version.java:150)
+	at org.eclipse.help.internal.search.SearchIndex.isLuceneCompatible(SearchIndex.java:721)
+	at org.eclipse.help.internal.search.PluginIndex.isCompatible(PluginIndex.java:152)
+	at org.eclipse.help.internal.search.PluginIndex.resolve(PluginIndex.java:83)
+	at org.eclipse.help.internal.search.PluginIndex.getPaths(PluginIndex.java:231)
+	at org.eclipse.help.internal.search.PrebuiltIndexes.trim(PrebuiltIndexes.java:46)
+	at org.eclipse.help.internal.search.PrebuiltIndexes.getIndexes(PrebuiltIndexes.java:54)
+	at org.eclipse.help.internal.search.IndexingOperation.mergeIndexes(IndexingOperation.java:544)
+	at org.eclipse.help.internal.search.IndexingOperation.addNewDocuments(IndexingOperation.java:152)
+	at org.eclipse.help.internal.search.IndexingOperation.execute(IndexingOperation.java:106)
+	at org.eclipse.help.internal.search.LocalSearchManager.updateIndex(LocalSearchManager.java:671)
+	at org.eclipse.help.internal.search.LocalSearchManager.ensureIndexUpdated(LocalSearchManager.java:645)
+	at org.eclipse.help.internal.search.LocalSearchManager.search(LocalSearchManager.java:590)
+	at org.eclipse.help.internal.search.SearchManager.searchLocal(SearchManager.java:103)
+	at org.eclipse.help.internal.search.SearchManager.search(SearchManager.java:94)
+	at org.eclipse.help.internal.search.SearchProgressMonitor$2.run(SearchProgressMonitor.java:162)
+	at java.lang.Thread.run(Thread.java:701)
+Caused by: java.util.NoSuchElementException
+	at java.util.StringTokenizer.nextToken(StringTokenizer.java:349)
+	at org.osgi.framework.Version.<init>(Version.java:127)
+	... 16 more
+
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:59:52.914
+!MESSAGE Problem occurred during indexing of documentation.
+!STACK 0
+java.lang.IllegalArgumentException: invalid format: 
+	at org.osgi.framework.Version.<init>(Version.java:150)
+	at org.eclipse.help.internal.search.SearchIndex.isLuceneCompatible(SearchIndex.java:721)
+	at org.eclipse.help.internal.search.PluginIndex.isCompatible(PluginIndex.java:152)
+	at org.eclipse.help.internal.search.PluginIndex.resolve(PluginIndex.java:83)
+	at org.eclipse.help.internal.search.PluginIndex.getPaths(PluginIndex.java:231)
+	at org.eclipse.help.internal.search.PrebuiltIndexes.trim(PrebuiltIndexes.java:46)
+	at org.eclipse.help.internal.search.PrebuiltIndexes.getIndexes(PrebuiltIndexes.java:54)
+	at org.eclipse.help.internal.search.IndexingOperation.mergeIndexes(IndexingOperation.java:544)
+	at org.eclipse.help.internal.search.IndexingOperation.addNewDocuments(IndexingOperation.java:152)
+	at org.eclipse.help.internal.search.IndexingOperation.execute(IndexingOperation.java:106)
+	at org.eclipse.help.internal.search.LocalSearchManager.updateIndex(LocalSearchManager.java:671)
+	at org.eclipse.help.internal.search.LocalSearchManager.ensureIndexUpdated(LocalSearchManager.java:645)
+	at org.eclipse.help.internal.search.LocalSearchManager.search(LocalSearchManager.java:590)
+	at org.eclipse.help.internal.search.SearchManager.searchLocal(SearchManager.java:103)
+	at org.eclipse.help.internal.search.SearchManager.search(SearchManager.java:94)
+	at org.eclipse.help.internal.search.SearchProgressMonitor$2.run(SearchProgressMonitor.java:162)
+	at java.lang.Thread.run(Thread.java:701)
+Caused by: java.util.NoSuchElementException
+	at java.util.StringTokenizer.nextToken(StringTokenizer.java:349)
+	at org.osgi.framework.Version.<init>(Version.java:127)
+	... 16 more
+
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:59:54.983
+!MESSAGE Problem occurred during indexing of documentation.
+!STACK 0
+java.lang.IllegalArgumentException: invalid format: 
+	at org.osgi.framework.Version.<init>(Version.java:150)
+	at org.eclipse.help.internal.search.SearchIndex.isLuceneCompatible(SearchIndex.java:721)
+	at org.eclipse.help.internal.search.PluginIndex.isCompatible(PluginIndex.java:152)
+	at org.eclipse.help.internal.search.PluginIndex.resolve(PluginIndex.java:83)
+	at org.eclipse.help.internal.search.PluginIndex.getPaths(PluginIndex.java:231)
+	at org.eclipse.help.internal.search.PrebuiltIndexes.trim(PrebuiltIndexes.java:46)
+	at org.eclipse.help.internal.search.PrebuiltIndexes.getIndexes(PrebuiltIndexes.java:54)
+	at org.eclipse.help.internal.search.IndexingOperation.mergeIndexes(IndexingOperation.java:544)
+	at org.eclipse.help.internal.search.IndexingOperation.addNewDocuments(IndexingOperation.java:152)
+	at org.eclipse.help.internal.search.IndexingOperation.execute(IndexingOperation.java:106)
+	at org.eclipse.help.internal.search.LocalSearchManager.updateIndex(LocalSearchManager.java:671)
+	at org.eclipse.help.internal.search.LocalSearchManager.ensureIndexUpdated(LocalSearchManager.java:645)
+	at org.eclipse.help.internal.search.LocalSearchManager.search(LocalSearchManager.java:590)
+	at org.eclipse.help.internal.search.SearchManager.searchLocal(SearchManager.java:103)
+	at org.eclipse.help.internal.search.SearchManager.search(SearchManager.java:94)
+	at org.eclipse.help.internal.search.SearchProgressMonitor$2.run(SearchProgressMonitor.java:162)
+	at java.lang.Thread.run(Thread.java:701)
+Caused by: java.util.NoSuchElementException
+	at java.util.StringTokenizer.nextToken(StringTokenizer.java:349)
+	at org.osgi.framework.Version.<init>(Version.java:127)
+	... 16 more
+
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:59:57.047
+!MESSAGE Problem occurred during indexing of documentation.
+!STACK 0
+java.lang.IllegalArgumentException: invalid format: 
+	at org.osgi.framework.Version.<init>(Version.java:150)
+	at org.eclipse.help.internal.search.SearchIndex.isLuceneCompatible(SearchIndex.java:721)
+	at org.eclipse.help.internal.search.PluginIndex.isCompatible(PluginIndex.java:152)
+	at org.eclipse.help.internal.search.PluginIndex.resolve(PluginIndex.java:83)
+	at org.eclipse.help.internal.search.PluginIndex.getPaths(PluginIndex.java:231)
+	at org.eclipse.help.internal.search.PrebuiltIndexes.trim(PrebuiltIndexes.java:46)
+	at org.eclipse.help.internal.search.PrebuiltIndexes.getIndexes(PrebuiltIndexes.java:54)
+	at org.eclipse.help.internal.search.IndexingOperation.mergeIndexes(IndexingOperation.java:544)
+	at org.eclipse.help.internal.search.IndexingOperation.addNewDocuments(IndexingOperation.java:152)
+	at org.eclipse.help.internal.search.IndexingOperation.execute(IndexingOperation.java:106)
+	at org.eclipse.help.internal.search.LocalSearchManager.updateIndex(LocalSearchManager.java:671)
+	at org.eclipse.help.internal.search.LocalSearchManager.ensureIndexUpdated(LocalSearchManager.java:645)
+	at org.eclipse.help.internal.search.LocalSearchManager.search(LocalSearchManager.java:590)
+	at org.eclipse.help.internal.search.SearchManager.searchLocal(SearchManager.java:103)
+	at org.eclipse.help.internal.search.SearchManager.search(SearchManager.java:94)
+	at org.eclipse.help.internal.search.SearchProgressMonitor$2.run(SearchProgressMonitor.java:162)
+	at java.lang.Thread.run(Thread.java:701)
+Caused by: java.util.NoSuchElementException
+	at java.util.StringTokenizer.nextToken(StringTokenizer.java:349)
+	at org.osgi.framework.Version.<init>(Version.java:127)
+	... 16 more
+
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 19:59:59.117
+!MESSAGE Problem occurred during indexing of documentation.
+!STACK 0
+java.lang.IllegalArgumentException: invalid format: 
+	at org.osgi.framework.Version.<init>(Version.java:150)
+	at org.eclipse.help.internal.search.SearchIndex.isLuceneCompatible(SearchIndex.java:721)
+	at org.eclipse.help.internal.search.PluginIndex.isCompatible(PluginIndex.java:152)
+	at org.eclipse.help.internal.search.PluginIndex.resolve(PluginIndex.java:83)
+	at org.eclipse.help.internal.search.PluginIndex.getPaths(PluginIndex.java:231)
+	at org.eclipse.help.internal.search.PrebuiltIndexes.trim(PrebuiltIndexes.java:46)
+	at org.eclipse.help.internal.search.PrebuiltIndexes.getIndexes(PrebuiltIndexes.java:54)
+	at org.eclipse.help.internal.search.IndexingOperation.mergeIndexes(IndexingOperation.java:544)
+	at org.eclipse.help.internal.search.IndexingOperation.addNewDocuments(IndexingOperation.java:152)
+	at org.eclipse.help.internal.search.IndexingOperation.execute(IndexingOperation.java:106)
+	at org.eclipse.help.internal.search.LocalSearchManager.updateIndex(LocalSearchManager.java:671)
+	at org.eclipse.help.internal.search.LocalSearchManager.ensureIndexUpdated(LocalSearchManager.java:645)
+	at org.eclipse.help.internal.search.LocalSearchManager.search(LocalSearchManager.java:590)
+	at org.eclipse.help.internal.search.SearchManager.searchLocal(SearchManager.java:103)
+	at org.eclipse.help.internal.search.SearchManager.search(SearchManager.java:94)
+	at org.eclipse.help.internal.search.SearchProgressMonitor$2.run(SearchProgressMonitor.java:162)
+	at java.lang.Thread.run(Thread.java:701)
+Caused by: java.util.NoSuchElementException
+	at java.util.StringTokenizer.nextToken(StringTokenizer.java:349)
+	at org.osgi.framework.Version.<init>(Version.java:127)
+	... 16 more
+
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 20:00:01.185
+!MESSAGE Problem occurred during indexing of documentation.
+!STACK 0
+java.lang.IllegalArgumentException: invalid format: 
+	at org.osgi.framework.Version.<init>(Version.java:150)
+	at org.eclipse.help.internal.search.SearchIndex.isLuceneCompatible(SearchIndex.java:721)
+	at org.eclipse.help.internal.search.PluginIndex.isCompatible(PluginIndex.java:152)
+	at org.eclipse.help.internal.search.PluginIndex.resolve(PluginIndex.java:83)
+	at org.eclipse.help.internal.search.PluginIndex.getPaths(PluginIndex.java:231)
+	at org.eclipse.help.internal.search.PrebuiltIndexes.trim(PrebuiltIndexes.java:46)
+	at org.eclipse.help.internal.search.PrebuiltIndexes.getIndexes(PrebuiltIndexes.java:54)
+	at org.eclipse.help.internal.search.IndexingOperation.mergeIndexes(IndexingOperation.java:544)
+	at org.eclipse.help.internal.search.IndexingOperation.addNewDocuments(IndexingOperation.java:152)
+	at org.eclipse.help.internal.search.IndexingOperation.execute(IndexingOperation.java:106)
+	at org.eclipse.help.internal.search.LocalSearchManager.updateIndex(LocalSearchManager.java:671)
+	at org.eclipse.help.internal.search.LocalSearchManager.ensureIndexUpdated(LocalSearchManager.java:645)
+	at org.eclipse.help.internal.search.LocalSearchManager.search(LocalSearchManager.java:590)
+	at org.eclipse.help.internal.search.SearchManager.searchLocal(SearchManager.java:103)
+	at org.eclipse.help.internal.search.SearchManager.search(SearchManager.java:94)
+	at org.eclipse.help.internal.search.SearchProgressMonitor$2.run(SearchProgressMonitor.java:162)
+	at java.lang.Thread.run(Thread.java:701)
+Caused by: java.util.NoSuchElementException
+	at java.util.StringTokenizer.nextToken(StringTokenizer.java:349)
+	at org.osgi.framework.Version.<init>(Version.java:127)
+	... 16 more
+
+!ENTRY org.eclipse.help.base 4 0 2014-06-14 20:00:03.258
 !MESSAGE Problem occurred during indexing of documentation.
 !STACK 0
 java.lang.IllegalArgumentException: invalid format: 

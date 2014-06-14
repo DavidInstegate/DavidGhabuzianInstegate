@@ -1,0 +1,3 @@
+748: remote -> org.jboss.maven.archetypes:selenium-testng (-)
+870: remote -> org.opengis.cite:ets-archetype-testng (A template for creating a new executable test suite (ETS) based on the TestNG framework.)
+1037: remote -> ru.stqa.selenium:webdriver-testng-archetype (Archetype for a Maven project intended to develop tests with Selenium WebDriver and TestNG)
