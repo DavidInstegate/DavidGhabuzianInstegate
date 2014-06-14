@@ -1,5 +1,5 @@
-#Sat Jun 14 22:07:44 AMT 2014
+#Sat Jun 14 22:16:20 AMT 2014
 __DEFAULT__=false
 org.eclipse.sdk.Eclipse.master=true
 org.eclipse.help.ui.localSearch.master=true
-expression=Maven
+expression=Project Explorer view
