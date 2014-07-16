@@ -1,3 +1,3 @@
 #!/bin/bash
-text= grep '{*}' $1
+text= sed -n "[/a/],[/a/]p" $1
 echo $text
